@@ -396,8 +396,9 @@ footer {
     padding: 25px;
     color: #707070;
     position: relative;
-    left: 70%;
+    left: 75%;
     display: inline-block;
+    transform: translateX(-50%);
 }
 
 .top_arrow {
@@ -1391,8 +1392,8 @@ footer {
     }
 
     .more {
-        font-size: 12px;
-        padding: 8px 16px 8px 10px;
+        font-size: 10px;
+        padding: 6px 16px 6px 10px;
     }
 
     .more_arrow {
