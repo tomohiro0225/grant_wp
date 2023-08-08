@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* cssリセット */
+
+/*利用するタグによってこちらの内容は増やす*/
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+dl,
+dt,
+dd,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    /*デフォルトの文字色、font-familyを予め当てておく*/
+    color: #000000;
+    font-weight: normal;
+    font-feature-settings: "palt";
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    line-height: 1.8;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す*/
+    color: inherit;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+ul {
+    /*左の「・」を消す*/
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: top;
+    border: none;
+}
+
+@media screen and (max-width: 767px) {
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    dl,
+    dt,
+    dd,
+    ul,
+    li {
+        font-size: 16px;
+    }
+}

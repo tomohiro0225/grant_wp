@@ -1,0 +1,2022 @@
+@charset "utf-8";
+
+.main_images {
+    position: relative;
+}
+
+.main_title {
+    font-size: 64px;
+    font-family: "Times New Roman", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN",
+        sans-serif;
+    color: #ffffff;
+    mix-blend-mode: overlay;
+    letter-spacing: 0.5em;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.header_items {
+    width: 100%;
+    border: 1px solid #707070;
+    border-collapse: collapse;
+}
+
+.header_item {
+    width: 33%;
+    height: 300px;
+    border: 1px solid #707070;
+}
+
+.header_item a {
+    font-size: 46px;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", sans-serif;
+    padding: 10%;
+    color: #707070;
+}
+
+.more {
+    font-size: 18px;
+    background-color: #e0ddd7;
+    display: inline;
+    padding: 14px 75px 14px 63px;
+}
+
+.more_arrow {
+    width: 81px;
+    height: 1px;
+    background-color: #707070;
+    position: relative;
+    margin: -40px;
+}
+
+.more_arrow::after {
+    content: "";
+    width: 10px;
+    height: 1px;
+    transform: rotate(23deg);
+    background-color: inherit;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+}
+
+.more_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 18%;
+    position: relative;
+    bottom: -28%;
+}
+
+#meet {
+    text-align: center;
+    margin: 140px 24px 140px;
+}
+
+.meet_title {
+    font-size: 55px;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", sans-serif;
+    font-weight: 600;
+    margin: 36px;
+}
+
+.meet_bold {
+    font-weight: bold;
+}
+
+.top_menu_title {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Times New Roman", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN",
+        sans-serif;
+    text-align: center;
+    color: #707070;
+}
+
+.top_menu_title_accesary {
+    font-size: 18px;
+    text-align: center;
+    font-family: "rig-shaded-bold-face", sans-serif;
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #707070;
+    top: -20px;
+}
+
+.top_menu_title_accesary::before,
+.top_menu_title_accesary::after {
+    content: "";
+    width: 15px;
+    height: 1px;
+    background-color: #707070;
+    display: block;
+    position: absolute;
+    top: 42%;
+}
+
+.top_menu_title_accesary::before {
+    left: -12%;
+}
+
+.top_menu_title_accesary::after {
+    right: -11%;
+}
+
+.top_menu_imgs {
+    display: flex;
+    margin: 33px 0 160px;
+}
+
+.top_menu_img {
+    width: 44.3%;
+    position: relative;
+    z-index: 100;
+}
+
+.top_menu_texts {
+    background-color: #969191;
+    width: 74%;
+    margin: 50px 0 0 -18%;
+}
+
+.top_menu_text {
+    color: #ffffff;
+    font-size: 22px;
+    padding: 50px 0 0 30%;
+}
+
+.top_more {
+    justify-content: flex-start;
+    margin: 80px 0 100px 30%;
+    bottom: 0;
+}
+
+.ethetic_imgs {
+    flex-direction: row-reverse;
+}
+
+.ethetic_texts {
+    margin: 50px -18% 0 0;
+}
+
+.ethetic_text {
+    text-align: right;
+    padding: 50px 30% 0 10px;
+}
+
+.ethetic_more {
+    margin: 80px 0 100px 50%;
+}
+
+.organic_more {
+    margin-top: 60px;
+}
+
+.top_title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.hairs_img {
+    width: 37%;
+    margin: 0 auto;
+}
+
+.recomend_caution {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.recomend_text {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.recomend_span {
+    color: #148618;
+    font-weight: Condensed Bold;
+    border-bottom: 1px solid #148618;
+}
+
+.flow_top_title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0 30px;
+}
+
+.flow_title {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin: 60px 0 20px;
+}
+
+.flow_img {
+    width: 36.6%;
+    margin: 40px auto;
+}
+
+.flow_text {
+    font-size: 35px;
+    text-align: center;
+}
+
+.flow_text_1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.flow_graf {
+    width: 56.5%;
+    margin: 40px auto;
+}
+
+.after_text {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.menu_text {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.reserve_title {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.reserve_link {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+    margin-bottom: 120px;
+}
+
+.news_title {
+    color: #262626;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", sans-serif;
+}
+
+.news_title_accesary {
+    color: #707070;
+    font-family: "EB Garamond", serif;
+    padding: 0 12px;
+}
+
+.news {
+    width: 61.5%;
+    margin: 35px auto 60px;
+    border: 1px solid #707070;
+    border-collapse: collapse;
+}
+
+.news_item {
+    border: 1px solid #707070;
+    padding: 30px;
+}
+
+.news_date {
+    font-size: 15px;
+    font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+    font-weight: 600;
+}
+
+.news_text {
+    font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+    font-size: 17px;
+}
+
+.view_wrap {
+    justify-content: center;
+    margin-right: 0;
+}
+
+.recuruit {
+    font-size: 55px;
+    font-family: "EB Garamond", serif;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 43%;
+    height: 129px;
+    display: block;
+    text-align: center;
+    margin: 120px 0 200px;
+}
+
+.recuruit::before {
+    content: "";
+    background-color: #e5e0dc;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    left: 49%;
+    top: -16%;
+    transform: translateX(-50%);
+}
+
+.recuruit::after {
+    content: "";
+    border: 1px solid #707070;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -8%;
+    transform: translateX(-50%);
+}
+
+footer {
+    background-color: #ebebeb;
+}
+
+.footer_wrap {
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+    padding: 110px 0 100px;
+    margin: 0 auto;
+}
+
+.address,
+.footer_link {
+    font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+    font-size: 17px;
+    color: #707070;
+}
+
+.footer_arrow {
+    width: 45px;
+    height: 1px;
+    background-color: #707070;
+    position: relative;
+    margin-right: 20px;
+}
+
+.footer_arrow::after {
+    content: "";
+    width: 10px;
+    height: 1px;
+    transform: rotate(43deg);
+    background-color: inherit;
+    display: block;
+    position: absolute;
+    right: -1px;
+    bottom: 3px;
+}
+
+.footer_link_item {
+    display: flex;
+    align-items: center;
+}
+
+.header_link {
+    padding: 25px;
+    color: #707070;
+    position: relative;
+    left: 75%;
+    display: inline-block;
+    transform: translateX(-50%);
+}
+
+.top_arrow {
+    position: absolute;
+    top: 52%;
+    left: -20%;
+}
+
+.mid_br,
+.sp_br {
+    display: none;
+}
+
+/* 初めての方 */
+
+.main_title_bottom {
+    font-size: 46px;
+    color: #ffffff;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", sans-serif;
+}
+
+.main_title_bottom_accesary {
+    font-family: "EB Garamond", serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: -16px;
+}
+
+.title_bottom_wrap {
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+}
+
+#new {
+    text-align: center;
+    margin: 105px 20px 120px;
+}
+
+.new_img {
+    width: 54.9%;
+    margin: 73px auto;
+}
+
+.new_title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 105px;
+}
+
+/* コンセプト */
+.concept_img {
+    width: 62%;
+    margin: 115px auto 57px;
+}
+
+.concept_title {
+    font-size: 35px;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", sans-serif;
+    text-align: center;
+}
+
+.concept_ethetic {
+    background-color: #969191;
+    padding: 60px 0;
+    margin-top: 60px;
+}
+
+.concept_title_ethetic,
+.concept_text_ethetic {
+    color: #ffffff;
+}
+
+.concept_text {
+    text-align: center;
+    margin: 24px;
+}
+
+.concepts_title {
+    font-size: 35px;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", sans-serif;
+}
+
+.concepts_text {
+    width: 41%;
+    margin: 0 auto;
+    box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.18);
+    padding: 30px;
+}
+
+.concepts_text:last-child {
+    margin-bottom: 120px;
+}
+
+/* 口コミ・実例 */
+
+.reviews_top_title {
+    font-size: 45px;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", sans-serif;
+    margin-bottom: 36px;
+}
+
+.reviews_top_text {
+    font-size: 30px;
+    margin: 30px;
+}
+
+.reviews_top {
+    background-color: #ebebeb;
+    padding: 100px 20px 80px;
+    text-align: center;
+}
+
+.reviews_title {
+    font-size: 55px;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin: 100px 0 60px;
+}
+
+.reviews_text {
+    font-size: 35px;
+    text-align: center;
+    margin: 30px;
+}
+
+.reviews_text_span {
+    color: #148618;
+    font-size: 40px;
+}
+
+.ex_title {
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 2px solid #000000;
+    width: 57.8%;
+    margin: 0 auto;
+}
+
+.ex_img {
+    width: 57.8%;
+    margin: 35px auto 65px;
+}
+
+.ex_text {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 64px;
+    margin: 30px;
+}
+
+.voice_img {
+    width: 61.5%;
+    margin: 65px auto;
+}
+
+/* メニュー */
+
+.menus {
+    margin: 100px 0 200px;
+}
+
+.menu {
+    display: flex;
+    margin-bottom: 130px;
+}
+
+.menu:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.menu_square {
+    width: 53.1%;
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.menu_cut {
+    background-color: #c7c2b9;
+}
+
+.menu_color {
+    background-color: #969191;
+}
+
+.menu_parm {
+    background-color: #b5aca4;
+}
+
+.menu_straight {
+    background-color: #c7c2b9;
+}
+
+.menu_treat {
+    background-color: #969191;
+    height: 574px;
+}
+
+.menu_ethetic {
+    background-color: #c7c2b9;
+    height: 630px;
+}
+
+.menu_items {
+    width: 630px;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 30px 70px 60px 30px;
+    margin: 3% -180px 0 -180px;
+}
+
+.menu_title {
+    font-size: 30px;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", sans-serif;
+    font-weight: 600;
+}
+
+.menu_item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_name {
+    font-size: 18px;
+}
+
+.menu_price {
+    font-size: 18px;
+    font-family: YuGothic, "Yu Gothic", "Yu Gothic UI", sans-serif;
+}
+
+.menu_exprain {
+    font-size: 14px;
+    color: #5d5d5d;
+    text-align: left;
+}
+
+.menu_one {
+    margin-bottom: 12px;
+}
+
+.menu_point {
+    background-color: #969191;
+    padding: 58px 24px;
+}
+
+.menu_point_text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.menu_caution {
+    text-align: center;
+    font-size: 20px;
+    color: #707070;
+    font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+    margin: 150px 20px 128px;
+}
+
+/* チケット */
+.ticket_top {
+    background-color: #b5aca4;
+    text-align: center;
+    padding: 115px 0 71px;
+}
+
+.ticket_top_title {
+    font-size: 44px;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 0.22em;
+}
+
+.ticket_top_text {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 40px;
+    letter-spacing: 0.22em;
+}
+
+.ticket_img {
+    width: 57%;
+    margin: 53px auto 100px;
+}
+
+.ticket_problem p {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+}
+
+.ticket_problem {
+    width: 54%;
+    margin: 0 auto;
+}
+
+.ticket_mini_img {
+    width: 38.6%;
+}
+
+.ticket_mini_img_top {
+    margin: 100px 0 0 21.4%;
+}
+
+.ticket_mini_img_bottom {
+    margin: -10% 0 70px 40.5%;
+}
+
+.ticket_pro {
+    width: 58%;
+    margin: 0 auto;
+}
+
+.ticket_pro_title {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.ticket_pro_text {
+    font-size: 30px;
+}
+
+.ticket_pro_bottom {
+    font-size: 35px;
+    letter-spacing: 0.175em;
+    text-align: center;
+    margin-top: 105px;
+}
+
+.ticket_price_title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+}
+
+.ticket_price_text {
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0.19em;
+    font-weight: bold;
+}
+
+.ticket_price_text_gray {
+    color: #707070;
+    font-size: 25px;
+}
+
+.ticket_caution {
+    text-align: center;
+    margin: 75px 0 85px;
+}
+
+.ticket_caution_subtitle {
+    font-size: 35px;
+    font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+    font-weight: bold;
+}
+
+.ticket_caution_title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 140px;
+}
+
+.ticket_caution_text {
+    font-size: 30px;
+}
+
+.ticket_subtitle {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+.ticket_menu_price {
+    font-size: 26px;
+    font-weight: bold;
+    border-top: 1.5px solid #707070;
+    border-bottom: 1.5px solid #707070;
+    padding: 20px;
+    display: inline-block;
+    letter-spacing: 0.13em;
+}
+
+.ticket_menu_price_wrap {
+    text-align: center;
+    margin: 44px 0 60px;
+}
+
+.ticket_menu_text {
+    font-size: 28px;
+    letter-spacing: 0.14em;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.ticket_faq {
+    font-size: 28px;
+    letter-spacing: 0.14em;
+    width: 57%;
+    margin: 0 auto 30px;
+}
+
+.ticket_faq_wrap {
+    margin: 67px 0 146px;
+}
+
+/* お悩み解決 */
+
+.resolution_wrap {
+    margin: 100px 0;
+}
+
+.resolution_item {
+    width: 57.3%;
+    margin: 20px auto;
+}
+
+.resolution_item p {
+    font-family: YuGothic, "Yu Gothic", "Yu Gothic UI", sans-serif;
+    font-weight: bold;
+}
+
+.resolution_title {
+    font-size: 28px;
+    position: relative;
+}
+
+.resolution_title::before,
+.resolution_title::after {
+    content: "";
+    background-color: #707070;
+    width: 100%;
+    height: 1px;
+    display: block;
+    position: absolute;
+}
+
+.resolution_title::before {
+    left: 0;
+    bottom: 0;
+}
+
+.resolution_title::after {
+    left: 0;
+    bottom: -5px;
+}
+
+.resolution_text {
+    font-size: 18px;
+    text-decoration: underline;
+    margin: 30px;
+}
+
+/* 髪質改善ヘアエステストレート */
+
+.three_mains_title {
+    mix-blend-mode: normal;
+}
+
+.hairmenu_wrap {
+    margin: 80px 20px 200px;
+}
+
+.hairmenu_title {
+    font-size: 50px;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hairmenu_title_accesary {
+    font-size: 22px;
+    font-family: "EB Garamond", serif;
+}
+
+.hairmenu_title_accesary::before,
+.hairmenu_title_accesary::after {
+    content: "";
+    top: 50%;
+}
+
+.hairmenu_img {
+    width: 57.4%;
+    margin: 52px auto 73px;
+}
+
+.improvement_text {
+    font-size: 30px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: 72px 0px;
+}
+
+.improvement_menu_wrap {
+    width: 45.5%;
+    margin: 72px auto 80px;
+}
+
+.improvement_menu {
+    font-size: 35px;
+    letter-spacing: 0.175em;
+    text-align: center;
+    border-top: 2px solid #707070;
+    border-bottom: 2px solid #707070;
+    padding: 42px 60px;
+}
+
+.improvement_difference_title {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.26em;
+    text-align: center;
+}
+
+.improvement_difference_text {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 0.23em;
+    text-align: center;
+    margin: 65px 0 33px;
+}
+
+.improvement_difference_caution {
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+    text-align: center;
+}
+
+/* 髪質改善ヘアエステ */
+
+.straight_title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.straight_flow_wrap {
+    width: 55%;
+    margin: 87px auto 156px;
+}
+
+.straight_flow {
+    margin: 45px 0;
+}
+
+.straight_flow_title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.straight_flow_img {
+    width: 56%;
+    margin: 25px 0;
+}
+
+.straight_flow_text {
+    font-size: 20px;
+    letter-spacing: 0.133em;
+    margin-top: 25px;
+}
+
+.straight_voice {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.16em;
+    text-align: center;
+}
+
+/* オーガニックカラー */
+
+.organic_title_wrap {
+    background-color: #aab56c;
+    padding: 66px 0;
+}
+
+.organic_title,
+.organic_title_accesary {
+    color: #ffffff;
+    padding: 0 30px;
+    font-weight: bold;
+}
+
+.organic_title_accesary::before,
+.organic_title_accesary::after {
+    background-color: #ffffff;
+}
+
+.organic_img {
+    width: 57%;
+    margin: 66px auto 60px;
+}
+
+.organic_text {
+    font-size: 50px;
+    letter-spacing: 0.25em;
+    font-family: "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体",
+        sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.organic_first {
+    width: 54%;
+    margin: 0 auto;
+}
+
+.organic_first_title {
+    font-size: 37px;
+    letter-spacing: 0.185em;
+    font-weight: bold;
+    color: #aab56c;
+    position: relative;
+    margin: 90px 0 36px;
+    padding-top: 22px;
+}
+
+.organic_first_title::before {
+    content: "";
+    width: 68%;
+    height: 5px;
+    background-color: #aab56c;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -45%;
+}
+
+.organic_first_icon {
+    width: 35.7%;
+}
+
+.organic_first_text {
+    font-weight: bold;
+    border-left: 5px solid #aab56c;
+    padding-left: 10px;
+    margin: 23px 0 30px;
+}
+
+.organic_first_caution {
+    opacity: 0.2;
+    font-size: 17px;
+}
+
+.organic_merit_wrap {
+    margin: 55px 20px 150px;
+}
+
+.organic_merit_top,
+.organic_merit_subtitle {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.23em;
+}
+
+.organic_merit_subtitle {
+    color: #aab56c;
+    text-decoration: underline;
+    margin: 41px 0 31px;
+    letter-spacing: 0.175em;
+}
+
+.organic_merit_img {
+    width: 41%;
+    margin: 0 auto;
+}
+
+.organic_merit {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.organic_merit_title {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    color: #aab56c;
+}
+
+.organic_merit_text {
+    font-size: 25px;
+    letter-spacing: 0.125em;
+}
+
+.organic_merit_recomend {
+    font-size: 30px;
+    letter-spacing: 0.15em;
+}
+
+.organic_merit_text_wrap {
+    display: flex;
+}
+
+.organic_merit_text_left {
+    margin-right: 10%;
+}
+
+.organic_merit_caution {
+    font-size: 25px;
+    color: #aab56c;
+    margin-top: 25px;
+}
+
+.organic_fin_title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.organic_fin_text {
+    margin-top: 25px;
+}
+
+/* リクルート */
+
+.recuruit_wrap {
+    text-align: center;
+    margin: 96px 20px 217px;
+}
+
+.recuruit_top {
+    font-size: 31px;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.21em;
+}
+
+.recuruit_title {
+    color: #108400;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    margin: 63px 0 71px;
+}
+
+.recuruit_shop {
+    font-size: 40px;
+}
+
+.recuruit_impact {
+    font-family: Impact, Charcoal, "Helvetica Inserat",
+        "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    font-size: 30px;
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+}
+
+.recuruit_caution {
+    font-size: 28px;
+    letter-spacing: 0.187em;
+    font-weight: bold;
+    margin: 10px 0 100px;
+}
+
+.recuruit_content {
+    font-size: 40px;
+    letter-spacing: 0.27em;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 70px 0 10px;
+}
+
+.recuruit_text_title {
+    margin: 60px 0 80px;
+}
+
+.recuruit_text {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.21em;
+}
+
+.recuruit_text_caution {
+    color: #747474;
+    margin: 50px 0 50px;
+}
+
+.recuruit_sararry {
+    font-size: 35px;
+    letter-spacing: 0.23em;
+    font-weight: bold;
+    margin: 50px 0 50px;
+}
+
+.recuruit_img {
+    width: 59%;
+    margin: 105px auto;
+}
+
+/* お知らせ */
+.news_contents {
+    width: 61.5%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.news_content {
+    width: 350px;
+    margin: 16px;
+}
+
+.news_content_date {
+    font-size: 24px;
+}
+
+.news_content_text {
+    font-size: 30px;
+}
+
+.news_content_more {
+    color: #707070;
+}
+
+@media screen and (max-width: 1366px) {
+    .main_title {
+        font-size: 42px;
+    }
+
+    .header_item {
+        height: 160px;
+    }
+
+    .header_item a {
+        font-size: 24px;
+    }
+
+    .more {
+        font-size: 16px;
+        padding: 8px 48px 8px 32px;
+    }
+
+    .more_arrow {
+        width: 56px;
+    }
+
+    .meet_title {
+        font-size: 36px;
+    }
+
+    .meet_text {
+        font-size: 18px;
+    }
+
+    .top_menu_title {
+        font-size: 28px;
+    }
+
+    .top_menu_title_accesary {
+        font-size: 14px;
+    }
+
+    .top_menu_img {
+        width: 44.3%;
+    }
+
+    .top_more {
+        margin: 40px 0 50px 30%;
+    }
+
+    .top_menu_text {
+        font-size: 16px;
+        padding: 50px 14px 0 30%;
+    }
+
+    .ethetic_text {
+        padding: 71px 30% 0 10px;
+    }
+
+    .ethetic_more {
+        margin: 40px 0 50px 50%;
+    }
+
+    .organic_more {
+        margin-top: 60px;
+    }
+
+    .top_title {
+        font-size: 26px;
+        margin-top: 60px;
+    }
+
+    .recomend_caution {
+        font-size: 16px;
+    }
+
+    .recomend_text {
+        font-size: 16px;
+        margin: 20px;
+    }
+
+    .flow_top_title {
+        font-size: 24px;
+        margin: 16px 0 16px;
+    }
+
+    .flow_title {
+        font-size: 25px;
+    }
+
+    .flow_text {
+        font-size: 18px;
+    }
+
+    .flow_text_1 {
+        font-size: 18px;
+    }
+
+    .after_text {
+        font-size: 16px;
+    }
+
+    .menu_text {
+        font-size: 18px;
+    }
+
+    .reserve_title {
+        font-size: 26px;
+    }
+
+    .reserve_link {
+        font-size: 24px;
+        margin-bottom: 80px;
+    }
+
+    .recuruit {
+        font-size: 24px;
+        height: 60px;
+        margin: 100px 0 160px;
+    }
+
+    footer {
+        background-color: #ebebeb;
+    }
+
+    .footer_wrap {
+        width: 80%;
+    }
+
+    .address,
+    .footer_link {
+        font-size: 16px;
+    }
+
+    .footer_arrow {
+        width: 36px;
+        margin-right: 16px;
+    }
+
+    .mid_br {
+        display: block;
+    }
+
+    .menu_items {
+        margin: 3% -370px 0 -370px;
+    }
+
+    .organic_merit_text_wrap {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .map {
+        width: 300px;
+        height: 300px;
+    }
+
+    .main_title {
+        font-size: 20px;
+    }
+
+    .header_item {
+        height: 80px;
+    }
+
+    .header_item a {
+        font-size: 10px;
+    }
+
+    .more {
+        font-size: 10px;
+        padding: 6px 16px 6px 10px;
+    }
+
+    .more_arrow {
+        width: 24px;
+        margin: -12px;
+    }
+
+    .meet_title {
+        font-size: 24px;
+    }
+
+    .meet_text {
+        font-size: 13px;
+    }
+
+    .top_menu_title {
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+
+    .top_menu_title_accesary {
+        font-size: 12px;
+    }
+
+    .top_menu_imgs {
+        display: block;
+        margin: 33px 0 80px;
+    }
+
+    .top_menu_img {
+        width: 44.3%;
+        margin: 0 auto;
+    }
+
+    .top_more {
+        margin: 0;
+        position: absolute;
+        transform: translateX(-50%);
+        bottom: 19px;
+        left: 50%;
+    }
+
+    .top_menu_texts {
+        margin: -32px auto;
+        position: relative;
+    }
+
+    .top_menu_text {
+        font-size: 16px;
+        padding: 14% 10% 74px;
+    }
+
+    .ethetic_text {
+        text-align: left;
+    }
+
+    .top_title {
+        font-size: 16px;
+        margin-top: 60px;
+    }
+
+    .recomend_caution {
+        font-size: 16px;
+    }
+
+    .recomend_text {
+        font-size: 14px;
+        margin: 15px;
+    }
+
+    .flow_top_title {
+        font-size: 16px;
+        margin: 16px 0 16px;
+    }
+
+    .flow_title {
+        font-size: 16px;
+    }
+
+    .flow_text {
+        font-size: 14px;
+        padding: 0 16px;
+    }
+
+    .flow_img {
+        margin: 20px auto;
+    }
+
+    .flow_text_1 {
+        font-size: 14px;
+        margin: 12px;
+    }
+
+    .after_text {
+        font-size: 16px;
+    }
+
+    .menu_text {
+        font-size: 18px;
+        margin: 0 16px;
+    }
+
+    .reserve_title {
+        font-size: 20px;
+        margin: 40px 24px;
+    }
+
+    .news {
+        width: 90%;
+        margin: 35px auto 60px;
+    }
+
+    .news_item {
+        padding: 16px;
+    }
+
+    .news_date {
+        font-size: 14px;
+    }
+
+    .news_text {
+        font-size: 16px;
+    }
+
+    .reserve_link {
+        font-size: 20px;
+        margin-bottom: 80px;
+    }
+
+    .recuruit {
+        font-size: 24px;
+        height: 60px;
+        margin: 100px 0 160px;
+    }
+
+    footer {
+        background-color: #ebebeb;
+    }
+
+    .footer_wrap {
+        width: 80%;
+        display: block;
+    }
+
+    .address {
+        margin-bottom: 20px;
+    }
+
+    .sp_br {
+        display: block;
+    }
+
+    /* 初めての方 */
+    .main_title_bottom {
+        font-size: 26px;
+    }
+
+    .main_title_bottom_accesary {
+        font-size: 14px;
+    }
+
+    .title_bottom_wrap {
+        position: absolute;
+        bottom: 10%;
+        left: 15%;
+    }
+
+    .new_title {
+        font-size: 20px;
+    }
+
+    /* コンセプト */
+
+    .concept_title {
+        font-size: 22px;
+    }
+
+    .concept_text {
+        text-align: center;
+        margin: 24px;
+    }
+
+    .concepts_title {
+        font-size: 22px;
+    }
+
+    .concepts_text {
+        width: 72%;
+        padding: 16px;
+    }
+
+    /* 口コミ・実例   */
+
+    .reviews_top_title {
+        font-size: 28px;
+    }
+
+    .reviews_top_text {
+        font-size: 18px;
+    }
+
+    .reviews_top {
+        padding: 60px 20px 40px;
+    }
+
+    .reviews_title {
+        font-size: 28px;
+        margin: 100px 0 60px;
+    }
+
+    .reviews_text {
+        font-size: 18px;
+    }
+
+    .reviews_text_span {
+        font-size: 20px;
+    }
+
+    .ex_title {
+        font-size: 24px;
+    }
+
+    .ex_text {
+        font-size: 18px;
+    }
+
+    /* メニュー */
+
+    .menu {
+        flex-direction: column;
+        margin-bottom: 140px;
+    }
+
+    .menu:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .menu_square {
+        width: 75%;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .menu_items {
+        width: 54%;
+        margin: -100px auto;
+        padding: 16px;
+    }
+
+    .menu_title {
+        font-size: 24px;
+    }
+
+    .menu_name {
+        font-size: 16px;
+    }
+
+    .menu_price {
+        font-size: 16px;
+    }
+
+    .menu_text {
+        font-size: 14px;
+    }
+
+    .menu_point {
+        background-color: #969191;
+        padding: 58px 24px;
+    }
+
+    .menu_point_text {
+        font-size: 20px;
+    }
+
+    .menu_caution {
+        font-size: 14px;
+        margin: 70px 20px 60px;
+    }
+    /* チケット */
+    .ticket_top {
+        padding: 60px 0 40px;
+    }
+
+    .ticket_top_title {
+        font-size: 24px;
+    }
+
+    .ticket_top_text {
+        font-size: 20px;
+        margin: 40px 20px;
+    }
+
+    .ticket_img {
+        width: 57%;
+        margin: 40px auto 60px;
+    }
+
+    .ticket_problem p {
+        font-size: 18px;
+    }
+
+    .ticket_problem {
+        width: 70%;
+    }
+
+    .ticket_pro {
+        width: 58%;
+        margin: 0 auto;
+    }
+
+    .ticket_pro_title {
+        font-size: 32px;
+    }
+
+    .ticket_pro_text {
+        font-size: 18px;
+    }
+
+    .ticket_pro_bottom {
+        font-size: 16px;
+        margin: 30px;
+    }
+
+    .ticket_price_title {
+        font-size: 28px;
+    }
+
+    .ticket_price_text {
+        font-size: 16px;
+        margin: 24px;
+    }
+
+    .ticket_price_text_gray {
+        font-size: 14px;
+    }
+
+    .ticket_caution_subtitle {
+        font-size: 28px;
+    }
+
+    .ticket_caution_title {
+        font-size: 30px;
+        margin: 60px 16px;
+    }
+
+    .ticket_caution_text {
+        font-size: 16px;
+        margin: 20px;
+    }
+
+    .ticket_subtitle {
+        font-size: 28px;
+    }
+
+    .ticket_menu_price {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .ticket_menu_text {
+        font-size: 16px;
+        margin: 0 20px 60px;
+    }
+
+    .ticket_faq {
+        font-size: 16px;
+        width: 70%;
+    }
+
+    .ticket_faq_wrap {
+        margin: 67px 0 146px;
+    }
+
+    /* お悩み解決 */
+
+    .resolution_item {
+        width: 70%;
+    }
+
+    .resolution_title {
+        font-size: 20px;
+    }
+
+    .resolution_text {
+        font-size: 16px;
+        margin: 20px;
+    }
+
+    /* 髪質改善ヘアエステストレート */
+
+    .hairmenu_title {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+
+    .hairmenu_title_accesary {
+        font-size: 14px;
+        margin-top: 18px;
+    }
+
+    .hairmenu_img {
+        width: 57.4%;
+        margin: 52px auto 73px;
+    }
+
+    .improvement_text {
+        font-size: 18px;
+    }
+
+    .improvement_menu_wrap {
+        width: 90%;
+        margin: 72px auto 80px;
+    }
+
+    .improvement_menu {
+        font-size: 20px;
+        padding: 20px 0px;
+    }
+
+    .improvement_difference_title {
+        font-size: 24px;
+    }
+
+    .improvement_difference_text {
+        font-size: 18px;
+    }
+
+    .improvement_difference_caution {
+        font-size: 16px;
+    }
+
+    /* 髪質改善ヘアエステ */
+
+    .straight_title {
+        font-size: 18px;
+    }
+
+    .straight_flow_wrap {
+        width: 80%;
+        margin: 87px auto 156px;
+    }
+
+    .straight_flow_title {
+        font-size: 24px;
+    }
+
+    .straight_flow_text {
+        font-size: 16px;
+    }
+
+    .straight_voice {
+        font-size: 18px;
+    }
+
+    /* オーガニックヘアカラー */
+
+    .organic_title_wrap {
+        padding: 40px 0;
+    }
+
+    .organic_img {
+        width: 57%;
+    }
+
+    .organic_text {
+        font-size: 20px;
+    }
+
+    .organic_first {
+        width: 82%;
+    }
+
+    .organic_first_title {
+        font-size: 23px;
+    }
+
+    .organic_first_icon {
+        width: 60%;
+    }
+
+    .organic_first_caution {
+        font-size: 14px;
+    }
+
+    .organic_merit_wrap {
+        margin: 55px 20px 150px;
+    }
+
+    .organic_merit_top,
+    .organic_merit_subtitle {
+        font-size: 20px;
+    }
+
+    .organic_merit_img {
+        width: 41%;
+        margin: 0 auto;
+    }
+
+    .organic_merit {
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .organic_merit_title {
+        font-size: 20px;
+    }
+
+    .organic_merit_text {
+        font-size: 18px;
+    }
+
+    .organic_merit_recomend {
+        font-size: 20px;
+    }
+
+    .organic_merit_caution {
+        font-size: 18px;
+    }
+
+    .organic_fin_title {
+        font-size: 15px;
+    }
+
+    .organic_fin_text {
+        margin-top: 14px;
+    }
+
+    /* リクルート */
+
+    .recuruit_wrap {
+        text-align: center;
+        margin: 96px 20px 217px;
+    }
+
+    .recuruit_top {
+        font-size: 22px;
+    }
+
+    .recuruit_title {
+        font-size: 20px;
+        margin: 40px 0 50px;
+    }
+
+    .recuruit_shop {
+        font-size: 32px;
+    }
+
+    .recuruit_impact {
+        font-size: 19px;
+    }
+
+    .recuruit_caution {
+        font-size: 16px;
+        margin: 10px 0 60px;
+    }
+
+    .recuruit_content {
+        font-size: 17px;
+        margin: 70px 0 10px;
+    }
+
+    .recuruit_text_title {
+        margin: 40px 0 60px;
+    }
+
+    .recuruit_text {
+        font-size: 17px;
+    }
+
+    .recuruit_sararry {
+        font-size: 17px;
+    }
+
+    .header_link {
+        padding: 12px;
+    }
+
+    .top_arrow {
+        left: -30%;
+    }
+}
+
+
+/* single-お知らせとsingle-お悩みページ */
+.single-news {
+    margin: 80px 0;
+  }
+  .single-news_inner {
+    padding: 0 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .single-news_title {
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 2px rgb(0, 0, 0);
+    color: #000000;
+  }
+  .single-news_date {
+    font-size: 0.5rem;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  .single-news_content {
+    font-size: 1rem;
+    text-align: left;
+    color: #000000;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .single-news_title {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+    }
+    .single-news_date {
+      font-size: 0.4rem;
+      margin-bottom: 10px;
+    }
+    .single-news_content {
+      font-size: 0, 8rem;
+    }
+  }
