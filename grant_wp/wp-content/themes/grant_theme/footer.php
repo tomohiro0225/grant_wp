@@ -10,37 +10,37 @@
             </p>
             <ul class="footer_links">
                 <li class="footer_link">
-                    <a class="footer_link_item" href="index.html">
+                    <a class="footer_link_item" href="<?php echo home_url(); ?>">
                         <div class="footer_arrow"></div>トップページ
                     </a>
                 </li>
                 <li class="footer_link">
-                    <a class="footer_link_item" href="page-new_customer.html">
+                    <a class="footer_link_item" href="<?php the_permalink(9); ?>">
                         <div class="footer_arrow"></div>初めての方
                     </a>
                 </li>
                 <li class="footer_link">
-                    <a class="footer_link_item" href="page-oncept.html">
+                    <a class="footer_link_item" href="<?php the_permalink(5); ?>">
                         <div class="footer_arrow"></div>こだわり
                     </a>
                 </li>
                 <li class="footer_link">
-                    <a class="footer_link_item" href="page-reviews.html">
+                    <a class="footer_link_item" href="<?php the_permalink(17); ?>">
                         <div class="footer_arrow"></div>お客様の声
                     </a>
                 </li>
                 <li class="footer_link">
-                    <a class="footer_link_item" href="page-price.html">
+                    <a class="footer_link_item" href="<?php the_permalink(13); ?>">
                         <div class="footer_arrow"></div>メニュー/料金
                     </a>
                 </li>
                 <!-- <li class="footer_link">
-                    <a class="footer_link_item" href="#footer">
+                    <a class="footer_link_item" href="<?php the_permalink(); ?>#footer">
                         <div class="footer_arrow"></div>店舗情報
                     </a>
                 </li> -->
                 <li class="footer_link">
-                    <a class="footer_link_item" href="index.html#reserve">
+                    <a class="footer_link_item" href="<?php echo home_url(); ?>#reserve">
                         <div class="footer_arrow"></div>予約問い合わせ
                     </a>
                 </li>

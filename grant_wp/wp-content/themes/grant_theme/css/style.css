@@ -283,13 +283,17 @@
 }
 
 .news {
-    width: 61.5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
     margin: 35px auto 60px;
     border: 1px solid #707070;
     border-collapse: collapse;
 }
 
 .news_item {
+    width: calc(50% - 62px);
     border: 1px solid #707070;
     padding: 30px;
 }
@@ -987,9 +991,12 @@ footer {
 
 .organic_title,
 .organic_title_accesary {
-    color: #ffffff;
     padding: 0 30px;
     font-weight: bold;
+}
+
+.organic_title_accesary {
+    color: #ffffff;
 }
 
 .organic_title_accesary::before,

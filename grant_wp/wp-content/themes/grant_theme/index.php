@@ -63,7 +63,7 @@
                         髪を綺麗に見せたいのに癖毛のせいでツヤがない。<br>
                         そんなお悩みを改善したい方にオススメ！</p>
                     <div class="more_wrap top_more">
-                        <a href="improvement.html" class="more">MORE</a>
+                        <a href="<?php the_permalink(7); ?>" class="more">MORE</a>
                         <div class="more_arrow"></div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                         髪質が変わったと感じている方<br>
                         そんなお悩みを改善したい方にオススメ！</p>
                     <div class="more_wrap top_more ethetic_more">
-                        <a href="straightening.html" class="more">MORE</a>
+                        <a href="<?php the_permalink(19); ?>" class="more">MORE</a>
                         <div class="more_arrow"></div>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                         お客様の不安を払拭し、幅広いデザインを楽しみながら、<br>
                         安心して繰り返しお使いただけるヘアカラー剤です。</p>
                     <div class="more_wrap top_more organic_more">
-                        <a href="organic.html" class="more">MORE</a>
+                        <a href="<?php the_permalink(11); ?>" class="more">MORE</a>
                         <div class="more_arrow"></div>
                     </div>
                 </div>
@@ -311,61 +311,13 @@
             </div>
                 <?php endif; ?>
             <div class="more_wrap view_wrap">
-                <a href="news.html" class="more">VIEW ALL</a>
+                <a href="<?php echo get_post_type_archive_link('news'); ?>" class="more">VIEW ALL</a>
                 <div class="more_arrow"></div>
             </div>
         </section>
-        <a href="recuruit.html" class="recuruit">RECURUIT</a>
+        <a href="<?php the_permalink(15); ?>" class="recuruit">RECURUIT</a>
     </main>
-    <footer id="footer">
-        <div class="footer_wrap">
-            <p class="address">〒210-0023<br>
-                神奈川県川崎市川崎区小川町<br class="mid_br">16-17MFプラザビル201<br>
-                TEL：044-211-1393<br>
-                営業時間(カット最終受付)<br>
-                10 : 00 ~ 19 : 00<br>
-                定休日 /毎週火曜日
-            </p>
-            <ul class="footer_links">
-                <li class="footer_link">
-                    <a class="footer_link_item" href="new_customer.html">
-                        <div class="footer_arrow"></div>初めての方
-                    </a>
-                </li>
-                <li class="footer_link">
-                    <a class="footer_link_item" href="concept.html">
-                        <div class="footer_arrow"></div>こだわり
-                    </a>
-                </li>
-                <li class="footer_link">
-                    <a class="footer_link_item" href="reviews.html">
-                        <div class="footer_arrow"></div>お客様の声
-                    </a>
-                </li>
-                <li class="footer_link">
-                    <a class="footer_link_item" href="price.html">
-                        <div class="footer_arrow"></div>メニュー/料金
-                    </a>
-                </li>
-                <!-- <li class="footer_link">
-                    <a class="footer_link_item" href="#footer">
-                        <div class="footer_arrow"></div>店舗情報
-                    </a>
-                </li> -->
-                <li class="footer_link">
-                    <a class="footer_link_item" href="index.html#reserve">
-                        <div class="footer_arrow"></div>予約問い合わせ
-                    </a>
-                </li>
-                <li class="footer_link">
-                    <a class="footer_link_item" href="https://beauty.hotpepper.jp/kr/slnH000607770/">
-                        <div class="footer_arrow"></div>提携脱毛サロン
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-    </footer>
+    <?php get_footer(); ?>
 </body>
 
 
