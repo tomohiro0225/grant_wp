@@ -18,6 +18,10 @@
     transform: translateY(-50%);
 }
 
+.index_title{
+    display: none;
+}
+
 .header_items {
     width: 100%;
     border: 1px solid #707070;
@@ -352,6 +356,17 @@
     transform: translateX(-50%);
 }
 
+.recuruit_link{
+    width: 50%;
+    padding: 0 16px;
+    margin: 0 auto 80px;
+    display: block;
+}
+
+.recuruit_link img{
+    width: 100%;
+}
+
 footer {
     background-color: #ebebeb;
 }
@@ -534,6 +549,7 @@ footer {
 .reviews_text_span {
     color: #148618;
     font-size: 40px;
+    font-weight: bold;
 }
 
 .ex_title {
@@ -1254,6 +1270,10 @@ footer {
         width: 56px;
     }
 
+    #meet {
+        margin: 70px 24px 70px;
+    }
+
     .meet_title {
         font-size: 36px;
     }
@@ -1390,6 +1410,11 @@ footer {
         font-size: 20px;
     }
 
+    .index_title{
+        top: 60%;
+        display: none;
+    }
+
     .header_item {
         height: 80px;
     }
@@ -1414,15 +1439,18 @@ footer {
 
     .meet_text {
         font-size: 13px;
+	    text-align: left;
     }
 
     .top_menu_title {
         font-size: 17px;
         margin-bottom: 8px;
+        color: #000;
     }
 
     .top_menu_title_accesary {
         font-size: 12px;
+        color: #000;
     }
 
     .top_menu_imgs {
@@ -1431,7 +1459,7 @@ footer {
     }
 
     .top_menu_img {
-        width: 44.3%;
+        width: 74%;
         margin: 0 auto;
     }
 
@@ -1450,7 +1478,7 @@ footer {
 
     .top_menu_text {
         font-size: 16px;
-        padding: 14% 10% 74px;
+        padding: 20% 10% 74px;
     }
 
     .ethetic_text {
@@ -1469,6 +1497,7 @@ footer {
     .recomend_text {
         font-size: 14px;
         margin: 15px;
+	    text-align: left;
     }
 
     .flow_top_title {
@@ -1483,19 +1512,17 @@ footer {
     .flow_text {
         font-size: 14px;
         padding: 0 16px;
+	    text-align: left;
     }
 
     .flow_img {
         margin: 20px auto;
     }
 
-    .flow_text_1 {
+    .flow_text_1,.after_text {
         font-size: 14px;
         margin: 12px;
-    }
-
-    .after_text {
-        font-size: 16px;
+	    text-align: left;
     }
 
     .menu_text {
@@ -1527,13 +1554,21 @@ footer {
 
     .reserve_link {
         font-size: 20px;
-        margin-bottom: 80px;
+        margin: 20px 0;
     }
 
     .recuruit {
         font-size: 24px;
         height: 60px;
         margin: 100px 0 160px;
+    }
+
+    .recuruit_link{
+        width: calc(100% - 32px);
+    }
+
+    .recuruit_link img{
+        width: 100%;
     }
 
     footer {
@@ -1570,6 +1605,18 @@ footer {
 
     .new_title {
         font-size: 20px;
+        font-weight: bold;
+        margin-top: 70px;
+    }
+
+    .new_img{
+        width: 90%;
+        margin: 70px auto 20px;
+    }
+
+    .new_text{
+        font-size: 14px;
+        text-align: left;
     }
 
     /* コンセプト */
@@ -1578,13 +1625,24 @@ footer {
         font-size: 22px;
     }
 
+    .concept_img {
+        width: 90%;
+        margin: 80px auto 40px;
+    }
+
     .concept_text {
-        text-align: center;
+        font-size: 14px;
+        text-align: left;
         margin: 24px;
     }
 
     .concepts_title {
         font-size: 22px;
+    }
+
+    .concepts_text {
+        width: 72%;
+        padding: 16px;
     }
 
     .concepts_text {
@@ -1599,7 +1657,8 @@ footer {
     }
 
     .reviews_top_text {
-        font-size: 18px;
+        font-size: 14px;
+        text-align: left;
     }
 
     .reviews_top {
@@ -1612,19 +1671,36 @@ footer {
     }
 
     .reviews_text {
-        font-size: 18px;
+        font-size: 14px;
+        text-align: left;
+    
     }
 
     .reviews_text_span {
         font-size: 20px;
+        text-align: center;
+        display: inline-block;
     }
 
     .ex_title {
         font-size: 24px;
+        margin: 50px auto 0;
+    }
+
+    .ex_img{
+        width: 75%;
+        margin: 20px auto;
     }
 
     .ex_text {
-        font-size: 18px;
+        margin: 00px 30px;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .voice_img{
+        width: 100%;
+        margin: 30px auto;
     }
 
     /* メニュー */
@@ -1639,31 +1715,36 @@ footer {
     }
 
     .menu_square {
-        width: 75%;
+        width: 90%;
         height: 200px;
         margin: 0 auto;
     }
 
+    .menu_one {
+        margin-bottom: 20px;
+    }
+
     .menu_items {
-        width: 54%;
+        width: 75%;
         margin: -100px auto;
         padding: 16px;
     }
 
     .menu_title {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .menu_name {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .menu_price {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .menu_text {
         font-size: 14px;
+	    text-align: left;
     }
 
     .menu_point {
@@ -1678,6 +1759,10 @@ footer {
     .menu_caution {
         font-size: 14px;
         margin: 70px 20px 60px;
+    }
+
+    .menu_exprain {
+        margin-top: 10px;
     }
     /* チケット */
     .ticket_top {
@@ -1694,7 +1779,7 @@ footer {
     }
 
     .ticket_img {
-        width: 57%;
+        width: 80%;
         margin: 40px auto 60px;
     }
 
@@ -1703,33 +1788,37 @@ footer {
     }
 
     .ticket_problem {
-        width: 70%;
+        width: 90%;
     }
 
     .ticket_pro {
-        width: 58%;
+        width: 90%;
         margin: 0 auto;
     }
 
     .ticket_pro_title {
-        font-size: 32px;
+        font-size: 20px;
+
     }
 
     .ticket_pro_text {
-        font-size: 18px;
+        font-size: 14px;
+        text-align: left;
     }
 
     .ticket_pro_bottom {
-        font-size: 16px;
+        font-size: 14px;
+        text-align: left;
         margin: 30px;
     }
 
     .ticket_price_title {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .ticket_price_text {
-        font-size: 16px;
+        font-size: 14px;
+        text-align: left;
         margin: 24px;
     }
 
@@ -1738,46 +1827,58 @@ footer {
     }
 
     .ticket_caution_subtitle {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .ticket_caution_title {
-        font-size: 30px;
+        font-size: 24px;
         margin: 60px 16px;
     }
 
     .ticket_caution_text {
-        font-size: 16px;
+        font-size: 14px;
+        text-align: left;
         margin: 20px;
     }
 
     .ticket_subtitle {
-        font-size: 28px;
+        font-size: 20px;
+    }
+
+    .ticket_menu{
+        padding: 0 16px;
+    }
+
+    .ticket_menu_price_wrap {
+        margin: 40px 0;
     }
 
     .ticket_menu_price {
         font-size: 14px;
-        padding: 12px;
+        padding: 12px 6px;
     }
 
     .ticket_menu_text {
-        font-size: 16px;
+        font-size: 14px;
+        text-align: left;
         margin: 0 20px 60px;
     }
 
     .ticket_faq {
-        font-size: 16px;
-        width: 70%;
+        font-size: 14px;
+        text-align: left;
+        width: 80%;
     }
 
     .ticket_faq_wrap {
-        margin: 67px 0 146px;
+        margin: 40px 0;
     }
 
     /* お悩み解決 */
 
     .resolution_item {
-        width: 70%;
+        width: calc(100% - 32px);
+        padding: 0 16px;
     }
 
     .resolution_title {
@@ -1802,12 +1903,14 @@ footer {
     }
 
     .hairmenu_img {
-        width: 57.4%;
-        margin: 52px auto 73px;
+        width: 90%;
+        margin: 0px auto 40px;
     }
 
     .improvement_text {
-        font-size: 18px;
+        font-size: 14px;
+        text-align: left;
+        margin: 40px auto;
     }
 
     .improvement_menu_wrap {
@@ -1816,20 +1919,23 @@ footer {
     }
 
     .improvement_menu {
-        font-size: 20px;
+        font-size: 16px;
         padding: 20px 0px;
     }
 
     .improvement_difference_title {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .improvement_difference_text {
-        font-size: 18px;
+        font-size: 16px;
+        text-align: left;
+        margin: 40px 0 20px;
     }
 
     .improvement_difference_caution {
-        font-size: 16px;
+        font-size: 14px;
+        text-align: left;
     }
 
     /* 髪質改善ヘアエステ */
@@ -1842,17 +1948,24 @@ footer {
         width: 80%;
         margin: 87px auto 156px;
     }
+    
+    .straight_flow_img {
+        width: 70%;
+        margin: 20px auto 0;
+    }
 
     .straight_flow_title {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .straight_flow_text {
-        font-size: 16px;
+        font-size: 14px;
+        text-align: left;
     }
 
     .straight_voice {
-        font-size: 18px;
+        font-size: 14px;
+        text-align: left;
     }
 
     /* オーガニックヘアカラー */
@@ -1862,7 +1975,7 @@ footer {
     }
 
     .organic_img {
-        width: 57%;
+        width: 90%;
     }
 
     .organic_text {
@@ -1874,7 +1987,7 @@ footer {
     }
 
     .organic_first_title {
-        font-size: 23px;
+        font-size: 20px;
     }
 
     .organic_first_icon {
@@ -1891,7 +2004,7 @@ footer {
 
     .organic_merit_top,
     .organic_merit_subtitle {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .organic_merit_img {
@@ -1909,7 +2022,8 @@ footer {
     }
 
     .organic_merit_text {
-        font-size: 18px;
+        font-size: 14px;
+        text-align: left;
     }
 
     .organic_merit_recomend {
@@ -1921,11 +2035,13 @@ footer {
     }
 
     .organic_fin_title {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .organic_fin_text {
         margin-top: 14px;
+        font-size: 14px;
+        text-align: left;
     }
 
     /* リクルート */
@@ -1937,6 +2053,7 @@ footer {
 
     .recuruit_top {
         font-size: 22px;
+        text-align: left;
     }
 
     .recuruit_title {
@@ -1950,28 +2067,40 @@ footer {
 
     .recuruit_impact {
         font-size: 19px;
+        text-align: left;
     }
 
     .recuruit_caution {
-        font-size: 16px;
+        font-size: 14px;
+        text-align: left;
         margin: 10px 0 60px;
     }
 
     .recuruit_content {
-        font-size: 17px;
+        font-size: 14px;
+        text-align: left;
         margin: 70px 0 10px;
     }
 
+    .recuruit_text {
+        font-size: 14px;
+        text-align: left;
+    }
+
     .recuruit_text_title {
+        font-size: 17px;
+        text-align: center;
         margin: 40px 0 60px;
     }
 
-    .recuruit_text {
-        font-size: 17px;
+    .recuruit_sararry {
+        font-size: 14px;
+        text-align: left;
     }
 
-    .recuruit_sararry {
-        font-size: 17px;
+    .recuruit_img {
+        width: 100%;
+        margin: 20px auto;
     }
 
     .header_link {
@@ -1980,6 +2109,18 @@ footer {
 
     .top_arrow {
         left: -30%;
+    }
+
+    
+    /* お知らせ */
+    .news_contents {
+        width: 100%;
+        margin: 100px auto 30px;
+    }
+
+    .news_content {
+        width: 100%;
+        margin: 16px;
     }
 }
 
@@ -2050,3 +2191,6 @@ footer {
     background-color: #000;
     color: #fff;
   }
+
+  /* 公式ラインのリンク */
+  

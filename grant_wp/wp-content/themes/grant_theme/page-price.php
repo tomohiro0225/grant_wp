@@ -90,8 +90,8 @@
             </div>
             <div class="menu">
                 <div class="menu_square menu_parm"></div>
+                <div class="menu_items">
                 <div class="menu_one">
-                    <div class="menu_items">
                         <p class="menu_title">パーマ</p>
                         <div class="menu_item">
                             <p class="menu_name">デザインパーマ（カット別）
@@ -99,7 +99,7 @@
                             <p class="menu_price">¥8,000〜 -</p>
                         </div>
                         <p class="menu_exprain">通常のパーマ</p>
-                    </div>
+                </div>
                     <div class="menu_one">
                         <div class="menu_item">
                             <p class="menu_name">デジタルパーマ（カット別）
@@ -126,7 +126,7 @@
                     </div>
                     <div class="menu_one">
                         <div class="menu_item">
-                            <p class="menu_name">ダメージ予防トリートメント + 縮毛矯正（カット別）
+                            <p class="menu_name">ダメージ予防トリートメント  + 縮毛矯正（カット別）
                             </p>
                             <p class="menu_price">¥18,000 -</p>
                         </div>

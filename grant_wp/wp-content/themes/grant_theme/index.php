@@ -5,7 +5,7 @@
             <div class="main_img">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/top_visual.png" alt="艶髪の女性">
             </div>
-            <h1 class="main_title">自分史上最高の艶髪へ</h1>
+            <h1 class="main_title index_title">自分史上最高の艶髪へ</h1>
         </div>
         <?php get_template_part('_inc/header-menu'); ?>
     </header>
@@ -60,8 +60,7 @@
                 <div class="top_menu_texts">
                     <p class="top_menu_text">髪の広がり、うねりでまとまらない、<br>
                         アホ毛のせいで傷んで見える、<br>
-                        髪を綺麗に見せたいのに癖毛のせいでツヤがない。<br>
-                        そんなお悩みを改善したい方にオススメ！</p>
+                        髪を綺麗に見せたいのに癖毛のせいでツヤがない。そんなお悩みを改善したい方にオススメ！</p>
                     <div class="more_wrap top_more">
                         <a href="<?php the_permalink(7); ?>" class="more">MORE</a>
                         <div class="more_arrow"></div>
@@ -239,31 +238,31 @@
             <p class="menu_text">髪質改善ヘアエステメニュー<br>
                 <br>
                 髪質改善ヘアエステ ¥11000<br>
-                初回施術時間2時間(シャンプー、ヘアエステ、仕上げアイロン)<br>
+                初回施術時間2時間(シャンプー、ヘアエステ)<br>
                 <br>
                 髪質改善ヘアエステカット ¥13800<br>
                 初回施術時間2.5時間<br>
-                (シャンプー、ヘアエステ、カット仕上げアイロン)<br>
+                (シャンプー、ヘアエステ、カット)<br>
                 <br>
                 髪質改善ヘアエステカラー ¥15400<br>
                 初回施術時間3時間<br>
-                (シャンプー、全体カラー、ヘアエステ、仕上げアイロン)<br>
+                (シャンプー、全体カラー、ヘアエステ)<br>
                 <br>
                 髪質改善ヘアエステカラーカット ¥17900<br>
                 初回施術時間3.5時間<br>
-                (シャンプー、全体カラー、ヘアエステ、カット、仕上げアイロン)<br>
+                (シャンプー、全体カラー、ヘアエステ、カット)<br>
                 <br>
                 髪質改善ヘアエステストレート ¥24800<br>
                 初回施術時間4.5時間<br>
                 (シャンプー、縮毛矯正、ヘアエステ)<br>
                 <br>
                 ＊当店の全てのメニューロング料金はございません。<br>
-                髪の長さ、毛量により施術時間は変わりますのでご了承ください。<br>
+                <span style="font-weight: normal;">髪の長さ、毛量により施術時間は変わりますのでご了承ください。<br>
                 カラーリングが5センチ以内のリタッチの場合は<br>
                 表示価格より¥1000引かさせてもらいます。<br>
                 <br>
                 カラーリングする時にオーガニックカラー、<br>
-                イルミナカラーにご変更される場合はプラス¥1000かかります。<br>
+                イルミナカラーにご変更される場合はプラス¥1000かかります。</span><br>
             </p>
         </section>
         <section id="reserve">
@@ -277,7 +276,7 @@
                 ホットペッパーを見たといっていただけると<br>
                 スムーズにご案内頂けます。
             </p>
-            <div style="text-align:center;">
+            <div style="text-align:center; padding: 20px 16px">
                 <iframe class="map"
                     src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3247.0668502787153!2d139.69665337530301!3d35.52734563841282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z56We5aWI5bed55yM5bed5bSO5biC5bed5bSO5Yy65bCP5bed55S6MTYtMTdNRuODl-ODqeOCtuODk-ODqzIwMQ!5e0!3m2!1sja!2sjp!4v1689829722507!5m2!1sja!2sjp"
                     width="494" height="494" style="border:0;" allowfullscreen="" loading="lazy"
@@ -288,6 +287,9 @@
                 定休日　火曜日<br>
                 TEL044-211-1393</p>
             <a class="reserve_link" href="https://beauty.hotpepper.jp/slnH000100989/">ホットペッパーで予約する</a>
+            <a href="https://lin.ee/CpkCprr" class="recuruit_link">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/line.png" alt="公式ライン">
+            </a>
         </section>
         <section>
             <h2 class="top_menu_title news_title">お知らせ</h2>
@@ -318,6 +320,14 @@
         <a href="<?php the_permalink(15); ?>" class="recuruit">RECURUIT</a>
     </main>
     <?php get_footer(); ?>
+
+
+  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        $(window).on("load", function() {
+            $('.index_title').fadeIn(2000); 
+        });
+    </script>
 </body>
 
 

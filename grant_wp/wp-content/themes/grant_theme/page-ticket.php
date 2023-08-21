@@ -16,7 +16,7 @@
     </header>
     <main>
         <div class="ticket_top">
-            <p class="ticket_top_title">【髪質改善<br class="sp_br">カラーチケットシステム】</p>
+            <p class="ticket_top_title">【髪質改善カラーチケットシステム】</p>
             <p class="ticket_top_text">いつでも綺麗な髪の毛でいられるように<br>
                 髪質改善サロンGRANT</p>
         </div>
@@ -32,7 +32,7 @@
         <div class="ticket_mini_img ticket_mini_img_top"><img src="<?php echo get_template_directory_uri(); ?>/images/ticket_shampoo.png" alt="シャンプー中の写真"></div>
         <div class="ticket_mini_img ticket_mini_img_bottom"><img src="<?php echo get_template_directory_uri(); ?>/images/ticket_color.png" alt="カラーリング中の写真"></div>
         <div class="ticket_pro">
-            <p class="ticket_pro_title">[プロによる<br class="sp_br">丁寧な施術]
+            <p class="ticket_pro_title">[プロによる丁寧な施術]
             </p>
             <p class="ticket_pro_text">ホームカラーはすごく便利でリーズナブルで良いのですが<br>
                 その反面だれが染めても染まるように設計されているので<br>
@@ -53,7 +53,7 @@
             ライフスタイルをおくりましょう！</p>
         <div class="ticket_img"><img src="<?php echo get_template_directory_uri(); ?>/images/ticket_hair.png" alt="艶髪の女性"></div>
         <div class="ticket_price">
-            <p class="ticket_price_title">【チケットの料金と<br class="sp_br">利用条件】</p>
+            <p class="ticket_price_title">【チケットの料金と利用条件】</p>
             <p class="ticket_price_text">料金について<br>
                 通常１回６０００円リタッチカラーが・・・<br>
                 <br>
@@ -85,7 +85,7 @@
             </p>
         </div>
         <div class="ticket_caution">
-            <p class="ticket_caution_subtitle">【カラーチケットの<br class="sp_br">利用条件・注意点】</p>
+            <p class="ticket_caution_subtitle">【カラーチケットの利用条件・注意点】</p>
             <p class="ticket_caution_title">【髪質改善サロンGRANTの想い】<br>
                 当店は、髪質改善サロンです</p>
             <div class="ticket_img"><img src="<?php echo get_template_directory_uri(); ?>/images/ticket_hair2.png" alt="施術後の写真"></div>
@@ -100,7 +100,7 @@
                 カラーチケットのみのご利用はお断りさせて頂いております。</p>
         </div>
         <div class="ticket_menu">
-            <p class="ticket_subtitle">[カラーチケット<br class="sp_br">会員様用髪質<br class="sp_br">改善メニュー]</p>
+            <p class="ticket_subtitle">[カラーチケット会員様用髪質改善メニュー]</p>
             <div class="ticket_menu_price_wrap">
                 <p class="ticket_menu_price">髪質改善クイックヘアエステ　　+8,000円<br>
                     髪質改善ヘアエステ　　　　　　+11,000円<br>
@@ -118,7 +118,7 @@
             </p>
         </div>
         <div>
-            <p class="ticket_subtitle">【カラーチケット<br class="sp_br">会員Ｑ＆Ａ】</p>
+            <p class="ticket_subtitle">【カラーチケット会員Ｑ＆Ａ】</p>
             <div class="ticket_faq_wrap">
                 <p class="ticket_faq">Ｑ/【カラーリングのみで使用できますか？】<br>
                     Ａ/大変申し訳ございません。カラーリングのみのご利用はできません。<br>

@@ -30,7 +30,7 @@
             </p>
             <p class="recuruit_text recuruit_text_title">- Recruit -</p>
             <p class="recuruit_text">当店はお客様に満足して頂ける高付加価値メニューを多数揃え、<br>
-                <span class="recuruit_impact">ちゃんと休みをとってもしっかり売上をあげれるような<br>
+                <span class="recuruit_impact" style="margin-top: 20px; display: inline-block;">ちゃんと休みをとってもしっかり売上をあげれるような<br>
                     仕組作りにも力を入れてますのでプライベートと仕事を両立も可能です♪</span><br>
                 <br>
                 当店では「しっかり働き・しっかり休む」を大切にしているので<br>
@@ -121,6 +121,9 @@
                 １０万円支給させていただきます。<br>
                 みなさんのご応募お待ちしております！
             </p>
+            <a href="https://lin.ee/CpkCprr" class="recuruit_link" style="margin: 80px auto; padding: 0;">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/line.png" alt="公式ライン">
+            </a>
             <div class="recuruit_img"><img src="<?php echo get_template_directory_uri(); ?>/images/recruit_image.png" alt="スタッフ写真"></div>
             <a href="https://lin.ee/CpkCprr" class="recuruit">RECURUIT</a>
         </div>
