@@ -9,7 +9,6 @@
     font-family: "Times New Roman", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN",
         sans-serif;
     color: #ffffff;
-    mix-blend-mode: overlay;
     letter-spacing: 0.5em;
     position: absolute;
     top: 50%;
@@ -192,7 +191,7 @@
 
 .hairs_img {
     width: 37%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .recomend_caution {
@@ -1271,7 +1270,7 @@ footer {
     }
 
     #meet {
-        margin: 70px 24px 70px;
+        margin: 40px 24px 70px;
     }
 
     .meet_title {
@@ -1455,7 +1454,7 @@ footer {
 
     .top_menu_imgs {
         display: block;
-        margin: 33px 0 80px;
+        margin: 0px 0 80px;
     }
 
     .top_menu_img {
@@ -1495,9 +1494,10 @@ footer {
     }
 
     .recomend_text {
-        font-size: 14px;
+        font-size: 13px;
         margin: 15px;
 	    text-align: left;
+        font-weight: normal;
     }
 
     .flow_top_title {
@@ -1945,7 +1945,7 @@ footer {
     }
 
     .straight_flow_wrap {
-        width: 80%;
+        width: 100%;
         margin: 87px auto 156px;
     }
     
@@ -1987,7 +1987,7 @@ footer {
     }
 
     .organic_first_title {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .organic_first_icon {
@@ -2192,5 +2192,23 @@ footer {
     color: #fff;
   }
 
-  /* 公式ラインのリンク */
+  /* スマホ版で機能するためのswitch？ */
+  .sp-off{
+    display: block;
+  }
+  .sp-on{
+    display: none;
+  }
+
+  
+  
+  @media screen and (max-width: 768px) {
+    .sp-off{
+      display: none;
+    }
+    .sp-on{
+      display: block;
+    }
+  }
+
   

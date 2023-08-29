@@ -22,22 +22,22 @@
                 「キレイな艶髪にしたいが自分の髪質にはなにを<br>
                 するのが一番良いのかわからない」<br>
                 <br>
-                「クセが強くて広がってしまい毎日のスタイリングが大変」<br>
+                「クセが強くて広がってしまい毎日のスタイリングが大変」<br><br class="sp-on">
                 「髪のパサつき、広がり、ツヤがなくなってきた」<br>
                 <br>
                 「スタイリングでアイロンやコテを使っていて<br>
                 熱のダメージで髪の質感が固くなってきた」<br>
                 <br>
-                「トリートメントしてもあまり効果を感じられない」<br>
+                「トリートメントしてもあまり効果を感じられない」<br><br class="sp-on">
                 「クセはそんなに強くないけどうねりがあって髪がまとまらない」<br>
                 <br>
                 「髪にツヤがなくて老けて見えてしまう」など…<br>
                 <br>
                 髪のダメージの原因や髪質のお悩みは人によって様々です。<br>
                 <br>
-                カウンセリングで現状の髪のお悩み、施術履歴、普段の髪の<br>
+                カウンセリングで現状の髪のお悩み、施術履歴、普段の髪の<br class="sp-off">
                 お手入れの仕方などしっかりヒアリングさせてもらい<br>
-                お客様1人ひとりに最適な髪質改善メニューを施術することによって<br>
+                お客様1人ひとりに最適な髪質改善メニューを施術することによって<br class="sp-off">
                 あなたのお悩みを解決し理想の艶髪に導きます。<br>
                 <br>
                 ぜひ一度GRANT(グラント)川崎店、<br>
@@ -58,9 +58,7 @@
             <div class="top_menu_imgs">
                 <div class="top_menu_img"><img src="<?php echo get_template_directory_uri(); ?>/images/straight.png" alt="縮毛矯正の施術前後"></div>
                 <div class="top_menu_texts">
-                    <p class="top_menu_text">髪の広がり、うねりでまとまらない、<br>
-                        アホ毛のせいで傷んで見える、<br>
-                        髪を綺麗に見せたいのに癖毛のせいでツヤがない。そんなお悩みを改善したい方にオススメ！</p>
+                    <p class="top_menu_text">髪の広がり、うねりでまとまらない、<br class="sp-off">アホ毛のせいで傷んで見える、<br class="sp-off">髪を綺麗に見せたいのに癖毛のせいでツヤがない。そんなお悩みを改善したい方にオススメ！</p>
                     <div class="more_wrap top_more">
                         <a href="<?php the_permalink(7); ?>" class="more">MORE</a>
                         <div class="more_arrow"></div>
@@ -72,12 +70,7 @@
             <div class="top_menu_imgs ethetic_imgs">
                 <div class="top_menu_img ethetic_img"><img src="<?php echo get_template_directory_uri(); ?>/images/hairethetic.png" alt="髪質改善ヘアエステの施術前後"></div>
                 <div class="top_menu_texts ethetic_texts">
-                    <p class="top_menu_text ethetic_text">髪に潤いがなくパサつきがある方<br>
-                        カラー、パーマ、縮毛矯正等、薬剤を使用した施術で<br>
-                        髪が傷んでいる方<br>
-                        細毛、軟毛髪にハリがない方、年齢とともに<br>
-                        髪質が変わったと感じている方<br>
-                        そんなお悩みを改善したい方にオススメ！</p>
+                    <p class="top_menu_text ethetic_text">髪に潤いがなくパサつきがある方<br class="sp-off">カラー、パーマ、縮毛矯正等、薬剤を使用した施術で<br class="sp-off">髪が傷んでいる方<br class="sp-off">細毛、軟毛髪にハリがない方、年齢とともに<br class="sp-off">髪質が変わったと感じている方<br class="sp-off">そんなお悩みを改善したい方にオススメ！</p>
                     <div class="more_wrap top_more ethetic_more">
                         <a href="<?php the_permalink(19); ?>" class="more">MORE</a>
                         <div class="more_arrow"></div>
@@ -89,13 +82,9 @@
             <div class="top_menu_imgs">
                 <div class="top_menu_img"><img src="<?php echo get_template_directory_uri(); ?>/images/organiccolor.png" alt="オーガニックカラーのイメージ画像"></div>
                 <div class="top_menu_texts">
-                    <p class="top_menu_text">薬剤が92%天然由来成分でできているので頭皮負担を減らし、<br>
-                        毛髪を保護し、繰り返してもダメージ感を感じさせない<br>
-                        艶ややかな仕上がりをもたらします。<br>
-                        頭皮が敏感でカラー施術の繰り返しに不安を抱えている方や<br>
-                        加齢によるエイジング毛対策などにオススメ！<br>
-                        お客様の不安を払拭し、幅広いデザインを楽しみながら、<br>
-                        安心して繰り返しお使いただけるヘアカラー剤です。</p>
+                    <p class="top_menu_text">薬剤が92%天然由来成分でできているので頭皮負担を減らし、<br class="sp-off">毛髪を保護し、繰り返してもダメージ感を感じさせない<br class="sp-off">艶ややかな仕上がりをもたらします。<br>
+                        頭皮が敏感でカラー施術の繰り返しに不安を抱えている方や<br class="sp-off">加齢によるエイジング毛対策などにオススメ！<br>
+                        お客様の不安を払拭し、幅広いデザインを楽しみながら、<br class="sp-off">安心して繰り返しお使いただけるヘアカラー剤です。</p>
                     <div class="more_wrap top_more organic_more">
                         <a href="<?php the_permalink(11); ?>" class="more">MORE</a>
                         <div class="more_arrow"></div>
@@ -109,24 +98,22 @@
             </h2>
             <div class="hairs_img"><img src="<?php echo get_template_directory_uri(); ?>/images/hairs.png" alt="髪質改善ヘアエステの施術後ヘア"></div>
             <p class="recomend_caution">＊効果実感には個人差があり、特定の効果を保証するものではありません。</p>
-            <p class="recomend_text">普通のトリートメントでは満足できない。<br>
-                今までのカラーリングの蓄積によるダメージで手触りが悪くなっている。<br>
-                いつも艶のある綺麗な髪で過ごしたい。<br>
-                髪の毛が細く、ハリコシが無くなってしまっている。<br>
-                ダメージしていて枝毛・切れ毛が気になる。<br>
+            <p class="recomend_text">・普通のトリートメントでは満足できない<br><br class="sp-on">
+                ・今までのカラーリングの蓄積によるダメージで手触りが悪くなっている<br><br class="sp-on">
+                ・いつも艶のある綺麗な髪で過ごしたい<br><br class="sp-on">
+                ・髪の毛が細く、ハリコシが無くなってしまっている<br><br class="sp-on">
+                ・ダメージしていて枝毛・切れ毛が気になる<br><br class="sp-on">
                 <br>
-                髪のダメージの原因・髪の乾燥の原因・髪の栄養状態は、<br>
-                一人ひとり違いますのでカウンセリングでしっかり見極めて<br>
-                お客様に合った髪質改善を提供させて頂きます。<br>
+                髪のダメージの原因・髪の乾燥の原因・髪の栄養状態は、<br class="sp-off">
+                一人ひとり違いますのでカウンセリングでしっかり見極めて、<br class="sp-off">お客様に合った髪質改善を提供させて頂きます。<br>
                 <br>
                 髪が綺麗に見えない原因が癖の場合は髪質改善ヘアエステストレートがおすすめです。<br>
                 <br>
                 縮毛矯正と一緒に、たっぷり栄養（活性ケラチン）を補給しながら髪の癖をとり、<br>
                 しなやかで艶のあるストレートに仕上げます。<br>
-                <br>
-                <span class="recomend_span">お客様の大切な髪のヘアーアドバイザーとして</span><br>
-                ご要望に対してヘアースタイルを提供するだけでなくお客様が<br>
-                綺麗な美髪で過ごせるためのヘアーアドバイザーになりたいと考えております。<br>
+                <br><br class="sp-on">
+                <span class="recomend_span">お客様の大切な髪のヘアーアドバイザーとして</span><br><br class="sp-on">
+                ご要望に対してヘアースタイルを提供するだけでなくお客様が<br class="sp-off">綺麗な美髪で過ごせるためのヘアーアドバイザーになりたいと考えております。<br>
                 <br>
                 <span>お客様の髪の理解者として</span><br>
                 髪の状態や骨格、髪の履歴などを正しく判断しご来店した日だけでなく、<br>
@@ -143,16 +130,16 @@
             <div>
                 <p class="flow_top_title">1・施術前</p>
                 <div class="flow_img"><img src="<?php echo get_template_directory_uri(); ?>/images/before.png" alt="髪質改善ヘアエステの施術前"></div>
-                <p class="flow_text_1">今回のモデルさんの髪の状態は繰り返しのカラーリングや<br>
-                    いろいろな外的要因によって髪の表面のキューティクルが損傷し<br>
+                <p class="flow_text_1">今回のモデルさんの髪の状態は繰り返しのカラーリングや<br class="sp-off">
+                    いろいろな外的要因によって髪の表面のキューティクルが損傷し<br class="sp-off">
                     そこからタンパク質が流失し髪内部に隙間ができます。<br>
                     (健康な髪の成分80%〜85%がタンパク質、<br>
-                    それ以外が脂質、水分、メラニン)それが髪のまとまりの悪さ、<br>
+                    それ以外が脂質、水分、メラニン)それが髪のまとまりの悪さ、<br class="sp-off">
                     パサつき潤いのない髪の原因になります。
                 </p>
                 <div class="flow_graf"><img src="<?php echo get_template_directory_uri(); ?>/images/graf.png" alt="健康な髪の構成成分"></div>
                 <p class="flow_text">※ヘアケアサイエンスDEMI参照</p>
-                <p class="flow_text_1">髪の成分の構成比をみてもらえればいかに髪にとって<br>
+                <p class="flow_text_1">髪の成分の構成比をみてもらえればいかに髪にとって<br class="sp-off">
                     タンパク質が大事かわかって頂けるとおもいます。<br>
                     <br>
                     GRANT(グラント)の全ての髪質改善メニューは<br>
@@ -162,26 +149,26 @@
                 <div>
                     <p class="flow_title">2・カウンセリング</p>
                     <p class="flow_text">お客様の髪質の現状やお悩みを、<br>
-                        カウンセリングシートを使用し細かく把握させてもらい、<br>
+                        カウンセリングシートを使用し細かく把握させてもらい、<br class="sp-off">
                         髪質改善をするためにお客様1人ひとりにあっ髪た薬剤を選びます。</p>
                 </div>
                 <div>
                     <p class="flow_title">3・シャンプーと前処理
                     </p>
-                    <p class="flow_text">最初にアルカリシャンプーで髪の表面に付いてる汚れや<br>
-                        シリコンを除去しつつこの後つけるタンパク質や処理剤の成分を<br>
+                    <p class="flow_text">最初にアルカリシャンプーで髪の表面に付いてる汚れや<br class="sp-off">
+                        シリコンを除去しつつこの後つけるタンパク質や処理剤の成分を<br class="sp-off">
                         浸透しやすくする下準備をします。
                     </p>
                 </div>
                 <div>
                     <p class="flow_title">4・たっぷり栄養補給、カラーリング剤塗布</p>
-                    <p class="flow_text">まず活性ケラチンを塗布ししっかり内部補強してから<br>
+                    <p class="flow_text">まず活性ケラチンを塗布ししっかり内部補強してから<br class="sp-off">
                         ご要望にそったカラーの薬剤を選定し塗布。<br>
-                        カラー剤の中にも特別な髪質改善効果のある成分を<br>
-                        お客様の髪の状態にあわせて数種類入れさせてもらい<br>
-                        カラーリングしながら髪を補強し<br>
+                        カラー剤の中にも特別な髪質改善効果のある成分を<br class="sp-off">
+                        お客様の髪の状態にあわせて数種類入れさせてもらい<br class="sp-off">
+                        カラーリングしながら髪を補強し<br class="sp-off">
                         艶のあるしなやかな髪にしていきます。<br>
-                        リタッチカラーの場合は毛先に活性ケラチンで栄養補給し<br>
+                        リタッチカラーの場合は毛先に活性ケラチンで栄養補給し<br class="sp-off">
                         髪質改善効果のある薬剤を浸透させます。</p>
                 </div>
                 <div>
@@ -189,7 +176,7 @@
                     <div class="flow_img"><img src="<?php echo get_template_directory_uri(); ?>/images/shampoo.png" alt="髪質改善ヘアエステのシャンプー、中間処理"></div>
                     <p class="flow_text">髪にとても優しいアミノ酸シャンプーを使用し<br>
                         頭皮と髪についた薬剤をしっかりと落としていきます。<br>
-                        中間処理でもう一度活性ケラチン、髪質改善効果のある薬剤を補給し<br>
+                        中間処理でもう一度活性ケラチン、髪質改善効果のある薬剤を補給し<br class="sp-off">
                         痛みの元になる残留アルカリを除去します。<br>
                     </p>
                 </div>
@@ -199,23 +186,23 @@
                     <div class="flow_img">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/treatment.png" alt="髪質改善ヘアエステのアフタートリートメント">
                     </div>
-                    <p class="flow_text">カラーリングした後はアルカリ性に毛髪が傾いているので<br>
-                        健康な状態の弱酸性にph調整して毛髪の状態を整え<br>
+                    <p class="flow_text">カラーリングした後はアルカリ性に毛髪が傾いているので<br class="sp-off">
+                        健康な状態の弱酸性にph調整して毛髪の状態を整え<br class="sp-off">
                         その後アフタートリートメントで毛髪に栄養と脂質！<br>
                         水分を補給し髪の質感を改善しツヤツヤの美髪にしていきます。<br>
                     </p>
                 </div>
                 <div>
                     <p class="flow_title">7・カット</p>
-                    <p class="flow_text">ご要望いただいた内容をもとに<br>
-                        お客様のライフスタイルにあった髪が<br>
+                    <p class="flow_text">ご要望いただいた内容をもとに<br class="sp-off">
+                        お客様のライフスタイルにあった髪が<br class="sp-off">
                         最大限綺麗に見えるカットを提供したいと思っております。<br>
                     </p>
                 </div>
                 <div>
                     <p class="flow_title">8・仕上げ</p>
-                    <p class="flow_text">最後ドライヤーで乾かしてアイロンで熱をいれ<br>
-                        髪の内部にいれた栄養や<br>
+                    <p class="flow_text">最後ドライヤーで乾かしてアイロンで熱をいれ<br class="sp-off">
+                        髪の内部にいれた栄養や<br class="sp-off">
                         艶のでる成分を定着させます。
                     </p>
                     <div class="flow_img">
@@ -228,7 +215,7 @@
                     <div class="flow_img">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/after.png" alt="髪質改善ヘアエステの仕上がりのヘアースタイル">
                     </div>
-                    <p class="after_text">髪質改善されスタイリングした時の収まりもよくなり<br>
+                    <p class="after_text">髪質改善されスタイリングした時の収まりもよくなり<br class="sp-off">
                         しなやかで艶のある髪に仕上がります。<br>
                         <br>
                         自分史上最高の艶髪と手触りを体感してください。<br>
@@ -267,13 +254,13 @@
         </section>
         <section id="reserve">
             <h2 class="reserve_title">○美容室GRANT川崎店の<br class="sp_br"> ご予約について</h2>
-            <p class="menu_text">当店はお客様に安心して快適なサービスを受けて頂くために<br>
+            <p class="menu_text">当店はお客様に安心して快適なサービスを受けて頂くために<br class="sp-off">
                 予約優先制です。<br>
                 <br>
-                ご予約はお電話もしくはLINE公式アカウントでお問い合わせ、<br>
-                ホットペッパービューティーのネット予約で承っております。<br>
-                初めてのお客様でお電話でご予約の際はホームページもしくは<br>
-                ホットペッパーを見たといっていただけると<br>
+                ご予約はお電話もしくはLINE公式アカウントでお問い合わせ、<br class="sp-off">
+                ホットペッパービューティーのネット予約で承っております。<br><br class="sp-on">
+                初めてのお客様でお電話でご予約の際はホームページもしくは<br class="sp-off">
+                ホットペッパーを見たといっていただけると<br class="sp-off">
                 スムーズにご案内頂けます。
             </p>
             <div style="text-align:center; padding: 20px 16px">
@@ -325,7 +312,7 @@
   <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script>
         $(window).on("load", function() {
-            $('.index_title').fadeIn(2000); 
+            $('.index_title').fadeIn(4000); 
         });
     </script>
 </body>
