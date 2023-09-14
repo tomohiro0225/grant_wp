@@ -13,8 +13,8 @@
     </header>
     <main>
         <div class="hairmenu_wrap">
-            <h2 class="hairmenu_title">髪質改善ヘアエステ</h2>
-            <p class="top_menu_title_accesary hairmenu_title_accesary">straightening</p>
+            <h2 class="hairmenu_title">当店1番人気髪質改善ヘアカラー</h2>
+            <p class="top_menu_title_accesary hairmenu_title_accesary">improvement</p>
             <p class="straight_title">当店1番人気の[髪質改善ヘアエステカラー]を施術解説していきます。</p>
             <div class="straight_flow_wrap">
                 <div class="straight_flow">
@@ -127,6 +127,7 @@
         </div>
     </main>
     <?php get_footer(); ?>
+    <?php get_template_part('_inc/button'); ?>
 </body>
 
 

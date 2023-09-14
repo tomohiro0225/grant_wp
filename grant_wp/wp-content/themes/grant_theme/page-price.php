@@ -105,7 +105,7 @@
                             <p class="menu_name">デジタルパーマ（カット別）
 
                             </p>
-                            <p class="menu_price">¥3,800 -</p>
+                            <p class="menu_price">¥10,000 -</p>
                         </div>
                         <p class="menu_exprain">形状記憶のパーマ</p>
                     </div>
@@ -214,14 +214,14 @@
                     </div>
                     <div class="menu_one">
                         <div class="menu_item">
-                            <p class="menu_name">髪質改善ヘアエステカラー+カット
+                            <p class="menu_name">髪質改善ヘアエステカラー<br class="sp-on">+カット
                             </p>
                             <p class="menu_price">¥17,900 -</p>
                         </div>
                     </div>
                     <div class="menu_one">
                         <div class="menu_item">
-                            <p class="menu_name">髪質改善ヘアエステストレート+カット
+                            <p class="menu_name">髪質改善ヘアエステストレート<br class="sp-on">+カット
                             </p>
                             <p class="menu_price">¥24,800 -
                             </p>
@@ -248,6 +248,7 @@
 
     </main>
     <?php get_footer(); ?>
+    <?php get_template_part('_inc/button'); ?>
 </body>
 
 </html>

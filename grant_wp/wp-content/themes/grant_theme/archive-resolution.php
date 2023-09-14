@@ -26,6 +26,7 @@
         </div>
     </main>
     <?php get_footer(); ?>
+    <?php get_template_part('_inc/button'); ?>
 </body>
 
 </html>

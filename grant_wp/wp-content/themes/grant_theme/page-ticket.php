@@ -16,9 +16,8 @@
     </header>
     <main>
         <div class="ticket_top">
-            <p class="ticket_top_title">【髪質改善カラーチケットシステム】</p>
-            <p class="ticket_top_text">いつでも綺麗な髪の毛でいられるように<br>
-                髪質改善サロンGRANT</p>
+            <p class="ticket_top_title">髪質改善<br class="sp-on">カラーチケットシステム</p>
+            <p class="ticket_top_text">いつでも綺麗な髪の毛で</p>
         </div>
         <div class="ticket_img"><img src="<?php echo get_template_directory_uri(); ?>/images/ticket_img.png" alt="紙に悩みのある女性"></div>
         <div class="ticket_problem">
@@ -46,45 +45,41 @@
             </p>
         </div>
         <p class="ticket_pro_bottom">カラーチケットシステムでお悩みを解決し、<br class="sp-off">
-            いつも綺麗な髪の毛でいられる<br>
-            ライフスタイルをおくりましょう！</p>
+            いつも綺麗な髪の毛でいられる<br class="sp-off">ライフスタイルをおくりましょう！</p>
         <div class="ticket_img"><img src="<?php echo get_template_directory_uri(); ?>/images/ticket_hair.png" alt="艶髪の女性"></div>
         <div class="ticket_price">
             <p class="ticket_price_title">【チケットの料金と利用条件】</p>
             <p class="ticket_price_text">料金について<br>
                 通常１回６０００円リタッチカラーが・・・<br>
                 <br>
-                ☆1年間会員（14回分）84,000円→33,600円<br>
+                ☆1年間会員（14回分）<br>84,000円→33,600円<br>
                 1回あたり約2,400円<br>
                 <br>
-                ☆半年会員（7回分）42,000円→21,000円<br>
+                ☆半年会員（7回分）<br>42,000円→21,000円<br>
                 1回あたり約3,000円
                 <br><br>
                 <span class="ticket_price_text_gray">※すべて税込価格です。<br>
                     (2022年７月現在時点)→(2023年５月時点)<br>
-                    今後の消費税、材料仕入れの変動により<br>
-                    価格を変更させていただく場合がございますのでご了承ください。</span><br><br>
-                カラーの料金が約50％から60％OFF！になります。<br>
+                    今後の消費税、材料仕入れの変動により<br class="sp-off">価格を変更させていただく場合がございますのでご了承ください。</span><br><br>
+                カラーの料金が約50％から60％OFF！<br>
                 カラー会員の方は、期間中カラーリタッチ料金はかかりません。<br>
                 ※全体染めの場合＋1,000円別途かかります。<br>
                 <br>
-                オーガニックカラー・イルミナカラーに変更の場合は、<br>
-                リタッチカラー＋1,000円、全体染め+2,000円別途かかります。<br>
+                オーガニックカラー・イルミナカラーに変更の場合は、<br class="sp-off">リタッチカラー＋1,000円、全体染め+2,000円別途かかります。<br>
                 <br>
                 【さらにお得になる4つの特典】<br>
                 <br>
                 1.次回予約でお会計5％OFF<br>
-                　2.30日以内のご来店でさらに5％OFF<br>
-                3.カラーチケットを更新される場合<br>
+                2.30日以内のご来店でさらに5％OFF<br>
+                3.ホームケア商品いつでも購入時5％OFF<br>
+                4.カラーチケットを更新される場合<br>
                 ■半年チケット500円OFF<br>
-                ■１年間チケット1000円OFF！！<br>
-                4.ホームケア商品いつでも購入時5％OFF
+                ■１年間チケット1000円OFF！！
             </p>
         </div>
         <div class="ticket_caution">
             <p class="ticket_caution_subtitle">【カラーチケットの利用条件・注意点】</p>
-            <p class="ticket_caution_title">【髪質改善サロンGRANTの想い】<br>
-                当店は、髪質改善サロンです</p>
+            <p class="ticket_caution_title">【GRANTの想い】</p>
             <div class="ticket_img"><img src="<?php echo get_template_directory_uri(); ?>/images/ticket_hair2.png" alt="施術後の写真"></div>
             <p class="ticket_caution_text">髪質改善サロンGRANTが１番に考えているのは、<br class="sp-off">お客様の髪の毛のお悩みを解消して<br class="sp-off">憧れの美髪で過ごすライフスタイルを手に入れて頂くことです。<br>
                 <br>
@@ -95,7 +90,7 @@
                 ですので大変申し訳ないのですが、<br class="sp-off">カラーチケットのみのご利用はお断りさせて頂いております。</p>
         </div>
         <div class="ticket_menu">
-            <p class="ticket_subtitle">[カラーチケット会員様用髪質改善メニュー]</p>
+            <p class="ticket_subtitle">カラーチケット<br class="sp-on">会員様限定メニュー</p>
             <div class="ticket_menu_price_wrap">
                 <p class="ticket_menu_price">髪質改善クイックヘアエステ　　+8,000円<br>
                     髪質改善ヘアエステ　　　　　　+11,000円<br>
@@ -120,10 +115,8 @@
                     購入して頂いた方の使用回数の平均は約5回です。<br>
                 </p>
                 <p class="ticket_faq">Ｑ/【期限が少し過ぎてしまっても大丈夫ですか】<br>
-                    Ａ/大変申し訳ないのですが、<br>
-                    期限が過ぎてしまうと無効になってしまいます。</p>
-                <p class="ticket_faq">Ｑ/【カラーチケットはおすすめですか？】<br>
-                    Ａ/綺麗な髪を維持しながら、<br>
+                    Ａ/大変申し訳ないのですが、<br class="sp-off">期限が過ぎてしまうと無効になってしまいます。</p>
+                <p class="ticket_faq">Ｑ/【カラーチケットはおすすめですか？】<br>Ａ/綺麗な髪を維持しながら、<br class="sp-off">
                     まめにカラーリングしたい方にはとてもおすすめです。<br>
                     チケット購入の方のみの、お得な特典もございます。 <br>
                     ですが、お客様自身が納得してご購入して頂くことが<br class="sp-off">1番良いかと思います。</p>
@@ -131,6 +124,8 @@
         </div>
     </main>
     <?php get_footer(); ?>
+    <?php get_template_part('_inc/button'); ?>
 </body>
 
 </html>
+

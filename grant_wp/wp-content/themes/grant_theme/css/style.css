@@ -191,7 +191,7 @@
 
 .hairs_img {
     width: 37%;
-    margin: 20px auto;
+    margin: 20px auto 10px;
 }
 
 .recomend_caution {
@@ -271,6 +271,7 @@
     text-decoration: underline;
     text-align: center;
     display: block;
+    color: red;
     margin-bottom: 120px;
 }
 
@@ -799,6 +800,7 @@ footer {
     font-weight: bold;
     text-align: center;
     letter-spacing: 0.2em;
+    color: red;
 }
 
 .ticket_menu_price {
@@ -1490,7 +1492,9 @@ footer {
     }
 
     .recomend_caution {
-        font-size: 16px;
+        font-size: 10px;
+        padding: 0 20px;
+        text-align: center;
     }
 
     .recomend_text {
@@ -1654,11 +1658,13 @@ footer {
 
     .reviews_top_title {
         font-size: 28px;
+        margin-bottom: 10px;
     }
 
     .reviews_top_text {
         font-size: 14px;
-        text-align: left;
+        text-align: left;    
+        margin-top: 0px;
     }
 
     .reviews_top {
@@ -1679,7 +1685,7 @@ footer {
     .reviews_text_span {
         font-size: 20px;
         text-align: center;
-        display: inline-block;
+        display: block;
     }
 
     .ex_title {
@@ -1745,6 +1751,14 @@ footer {
     .menu_text {
         font-size: 14px;
 	    text-align: left;
+        font-weight: normal;
+        display: block;
+        margin-top: 30px;
+    }
+
+    .menu_text_title{
+        font-size: 18px;
+        font-weight: bold;
     }
 
     .menu_point {
@@ -1856,6 +1870,7 @@ footer {
     .ticket_menu_price {
         font-size: 14px;
         padding: 12px 6px;
+        text-align: left;
     }
 
     .ticket_menu_text {
@@ -2211,4 +2226,44 @@ footer {
     }
   }
 
-  
+/* スマホフロート ------------------------------*/
+.cp-float-sp01 {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .cp-float-sp01 {
+        position: fixed;
+        display: flex;
+        bottom: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+    
+    /* アイテム */
+    .cp-float-sp01__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: calc(100% / 3);
+        background: #969191;
+    }
+    .cp-float-sp01__item:nth-child(2n) {
+        background: #606060;
+    }
+    .cp-float-sp01__item:not(:last-child) {
+        border-right: 1px solid #fff;
+    }
+    .cp-float-sp01__item a {
+        display: block;
+        padding: 8px;
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+    }
+    .cp-float-sp01__item i {
+        margin-bottom: 6px;
+        font-size: 24px;
+    }
+}

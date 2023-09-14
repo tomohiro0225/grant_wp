@@ -17,24 +17,11 @@
     <main>
         <section id="reviews">
             <div class="reviews_top">
-                <h2 class="reviews_top_title">お客様の口コミ</h2>
+                <h2 class="reviews_top_title">【口コミ/実例】</h2>
                 <p class="reviews_top_text">こちらは施術されたお客様の感想をご紹介していきます。</p>
             </div>
             <div>
-                <p class="reviews_title">【口コミ/実例】
-                </p>
-                <p class="reviews_text"><span class="reviews_text_span">髪質改善ヘアエステで自分史上最高の美髪へ</span><br>
-                    <br>
-                    グラントはお客様の「髪をキレイにする」ことに<br class="sp-off">本気で取り組んでいます。<br>
-                    <br>
-                    ・目の前のお客様に集中できるように完全予約制<br>
-                    <br>
-                    ・しっかりカウンセリングさせてもらいお客様の髪を診断。<br class="sp-off">　お悩みを把握してからご要望に沿って施術。<br>
-                    <br>
-                    ・髪質改善するための髪と頭皮に優しい厳選された<br class="sp-off">特別な薬剤を使用しダメージを最低限におさえて美髪へ導く。<br>
-                    <br>
-                    ・半個室のリラックス空間<br>
-                    <br>
+                <p class="reviews_text"><span class="reviews_text_span">髪質改善ヘアエステで<br class="sp-on">自分史上最高の美髪へ</span><br>
                     こちらで紹介している実例は髪のクセ、うねり、広がり、<br class="sp-off">ダメージによる切れ毛やパサつきなどが原因で<br class="sp-off">普段のスタイリングがしづらい、<br class="sp-off">髪が綺麗に見えないなどのお悩みをお持ちの方々です。<br>
                     <br>
                     グラントに来店して頂いた皆さんから<br><br class="sp-on">
@@ -58,8 +45,7 @@
                     <br>
                     クセがあるので広がってしまう状態。<br>
                     <br>
-                    クセがあっていつもストレートアイロンなど<br class="sp-off">でまっすぐにされている方は<br class="sp-off">一度縮毛矯正をして髪の形状をまっすぐにしてあげた方が<br class="sp-off">朝のお手入れが絶対楽になりますし、<br>
-                    髪に艶も出て綺麗になるのでオススメです。<br>
+                    クセがあっていつもストレートアイロンなど<br class="sp-off">でまっすぐにされている方は<br class="sp-off">一度縮毛矯正をして髪の形状をまっすぐにしてあげた方が<br class="sp-off">朝のお手入れが絶対楽になりますし、<br class="sp-off">髪に艶も出て綺麗になるのでオススメです。<br>
                     <br>
                     こちらのお客様がされたメニューは、<br class="sp-off">髪質改善ヘアエステストレートで髪のクセをとるのと同時に<br class="sp-off">特別な薬剤で髪の内部をしっかり補修し、<br class="sp-off">残留薬剤を取り除く処置も行うことで<br class="sp-off">施術後のダメージも必要最低限に抑えられるので<br class="sp-off">良い状態が長続きします。<br>
                     半年に一度の髪質改善ヘアエステストレートと<br class="sp-off">ヘアケアで今も綺麗な髪を維持してくれています。
@@ -92,14 +78,9 @@
                 </div>
                 <p class="ex_text">今まで髪のクセが強く、どこのサロンに行っても<br class="sp-off">なかなか思うようなヘアースタイルしてもらえず、<br class="sp-off">艶のあるストレートヘアーにしたいとグラントにご来店頂きました。<br>
                     <br>
-                    クセがとても強いのですが、<br>
-                    毛が細くて薬剤の影響を受けやすい<br>
-                    難しい髪質をされていたのですが、<br>
-                    髪質に合わせた薬剤選定と見極めで<br>
-                    ここまで綺麗になりとても喜んでもらいました。<br>
+                    クセがとても強いのですが、<br class="sp-off">毛が細くて薬剤の影響を受けやすい<br class="sp-off">難しい髪質をされていたのですが、<br class="sp-off">髪質に合わせた薬剤選定と見極めで<br class="sp-off">ここまで綺麗になりとても喜んでもらいました。<br>
                     <br>
-                    こちらのお客様は６０代なのですが、<br>
-                    髪に艶があるだけで印象もとても変わります。
+                    こちらのお客様は６０代なのですが、<br class="sp-off">髪に艶があるだけで印象もとても変わります。
                 </p>
             </div>
             <div>
@@ -131,6 +112,7 @@
 
     </main>
     <?php get_footer(); ?>
+    <?php get_template_part('_inc/button'); ?>
 </body>
 
 </html>

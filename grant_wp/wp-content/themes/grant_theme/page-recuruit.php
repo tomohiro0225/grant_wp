@@ -46,10 +46,11 @@
             <p class="recuruit_text">スタイリスト、ジュニアスタイリスト<br>
                 年齢20歳〜35歳　要美容師免許<br>
                 客単価¥10000〜<br>
-                週休2日制　有給休暇　正月5連休<br>
+                完全週休2日制　有給休暇完全消化　正月5連休<br>
                 <br>
                 火曜日定休日+シフト制<br>
-                土、日、祝日でも休むことも全然可能なのでお気軽にご相談ください。
+                土、日、祝日でも休むことも全然可能なのでお気軽にご相談ください。<br>
+                労働時間44時間超えた場合残業代支給
             </p>
             <p class="recuruit_content">■勤務時間</p>
             <p class="recuruit_text">平日・土日祝　10:00〜19:00<br>
@@ -78,7 +79,8 @@
             </p>
             <p class="recuruit_content">■給与制度</p>
             <p class="recuruit_text">基本給２１万円+固定残業代<br>
-                (22時間)2万5千円+技術売上歩合+店販手当(税抜売上10%)
+                (20時間)2万5千円+技術売上歩合+店販手当(税抜売上10%)<br>
+                ※固定残業代超えた分は残業代支給を差し込み
             </p>
             <p class="recuruit_sararry">歩合給<br>
                 税抜売り上げ<br>
@@ -104,18 +106,18 @@
                 ＊年齢、売上、入社順など関係なく<br class="sp-off">
                 スタッフ全員が気持ち良くはたらけるように心がけてます。<br>
                 <br>
-                ご応募の方はLINE公式アカウントの方からご連絡ください。<br>
-                当店ホームページから応募していただいた方は<br class="sp-off">入社半年間勤務でお祝い金<br><br class="sp-on">１０万円支給させていただきます！<br class="sp-on"><br>
-                みなさんのご応募お待ちしております！
+                ご応募の方はグラント公式ラインの方からご連絡ください。<br>
+                当店ホームページから応募していただいた方は<br class="sp-off">入社半年間勤務でお祝い金１０万円支給させていただきます！みなさんのご応募お待ちしております！
             </p>
             <a href="https://lin.ee/CpkCprr" class="recuruit_link" style="margin: 80px auto; padding: 0;">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/line.png" alt="公式ライン">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/line-2.png" alt="公式ライン">
             </a>
             <div class="recuruit_img"><img src="<?php echo get_template_directory_uri(); ?>/images/recruit_image.png" alt="スタッフ写真"></div>
             <a href="https://lin.ee/CpkCprr" class="recuruit">RECURUIT</a>
         </div>
     </main>
     <?php get_footer(); ?>
+    <?php get_template_part('_inc/button'); ?>
 </body>
 
 </html>
