@@ -28,7 +28,7 @@
                     癖毛が原因で広がったりツヤがなく綺麗に見えない方にオススメ！！</p>
                 <!-- <div class="concept_straight_img"><img src="<?php echo get_template_directory_uri(); ?>/images/straights.png" alt="施術前後の写真"></div> -->
             </div>
-            <div class="concept_img"><img src="<?php echo get_template_directory_uri(); ?>/images/hairethetic.png" alt="施術前後の写真"></div>
+            <div class="concept_img"><img src="<?php echo get_template_directory_uri(); ?>/images/organiccolor.png" alt="施術前後の写真"></div>
             <div class="concepts_text">
                 <p class="concepts_title">オーガニックカラー</p>
                 <p>薬剤が92%天然由来成分でできているので頭皮負担を減らし、毛髪を保護し、繰り返してもダメージ感を感じさせない艶ややかな仕上がりをもたらします。頭皮が敏感でカラー施術の繰り返しに不安を抱えている方や加齢によるエイジング毛対策などにオススメ！お客様の不安を払拭し、幅広いデザインを楽しみながら、安心して繰り返しお使いただけるヘアカラー剤です。
@@ -36,8 +36,7 @@
             </div>
             <div class="concept_img"><img src="<?php echo get_template_directory_uri(); ?>/images/hearing2.png" alt="カウンセリング中の写真"></div>
             <div class="concepts_text">
-                <p class="concepts_title">お客様の悩みをしっかり<br>
-                    把握させて頂くためのカウンセリング</p>
+                <p class="concepts_title">カウンセリング</p>
                 <p>美容室GRANT川崎店では、<br class="sp-off">お客様の髪に対する履歴や髪質のお悩み、<br class="sp-off">普段のお手入れ方法、理想のスタイルなどをお伺いし、<br class="sp-off">頂きましたご要望をすべてその日の施術とサロンで過ごして頂く<br class="sp-off">お時間に反映させて頂きます。<br>
                 </p>
             </div>

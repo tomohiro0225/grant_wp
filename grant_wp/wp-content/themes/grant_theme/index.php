@@ -242,7 +242,7 @@
             </p> -->
             <div style="text-align:center; padding: 20px 16px">
                 <iframe class="map"
-                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3247.0668502787153!2d139.69665337530301!3d35.52734563841282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z56We5aWI5bed55yM5bed5bSO5biC5bed5bSO5Yy65bCP5bed55S6MTYtMTdNRuODl-ODqeOCtuODk-ODqzIwMQ!5e0!3m2!1sja!2sjp!4v1689829722507!5m2!1sja!2sjp"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1623.527362759163!2d139.69837143054963!3d35.52764527621708!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860a30c20dd0b%3A0xeffb5fe92f5db64!2z6auq6LOq5pS55ZaE44K144Ot44OzR1JBTlTlt53ltI7lupc!5e0!3m2!1sja!2sjp!4v1695206147010!5m2!1sja!2sjp"
                     width="494" height="494" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -251,8 +251,8 @@
                 定休日　火曜日<br>
                 TEL044-211-1393</p>
             <a class="reserve_link" href="https://beauty.hotpepper.jp/slnH000100989/">ホットペッパーで予約する</a>
-            <a href="https://lin.ee/CpkCprr" class="recuruit_link">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/line.png" alt="公式ライン">
+            <a href="<?php the_permalink(15); ?>" class="recuruit_link">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/line-2.png" alt="公式ライン">
             </a>
         </section>
         <section>

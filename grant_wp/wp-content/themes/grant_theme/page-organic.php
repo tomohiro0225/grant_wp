@@ -41,9 +41,8 @@
             <div class="organic_merit_img"><img src="<?php echo get_template_directory_uri(); ?>/images/organic_cosme.png" alt="天然由来成分の表示"></div>
             <div class="organic_merit">
                 <p class="organic_merit_title">・オーガニックキャリアオイルで髪に潤いを</p>
-                <p class="organic_merit_text">アロママッサージなどにも使用される３種のオーガニックキャリアオイル<br>
-                    （オリーブオイル・ホホバオイル・ヒマワリオイル）を配合し、<br>
-                    毛髪への浸透・保護・保湿を可能に。</p>
+                <p class="organic_merit_text">アロママッサージなどにも使用される<br>
+                    ・オリーブオイル<br>・ホホバオイル<br>・ヒマワリオイル<br>３種類のオイルを配合し毛髪への浸透・保護・保湿を可能に。</p>
             </div>
             <div class="organic_merit">
                 <p class="organic_merit_title">・オーガニック植物エキスで艶やかな仕上がりに</p>
@@ -63,8 +62,7 @@
             <div class="organic_merit">
                 <p class="organic_merit_title">・刺激臭を70%軽減</p>
                 <p class="organic_merit_text">カラーの際に匂う独特な刺激臭が少ない。<br>
-                    アロマキャンドルをヒントにヤシ由来のロウを配合することで、<br>
-                    アンモニアの揮発量（刺激臭）を７０％カット！<br class="sp-off">
+                    アロマキャンドルをヒントにヤシ由来のロウを配合することで、アンモニアの揮発量（刺激臭）を７０％カット！<br class="sp-off">
                     カラー中の不快感を抑え、心地よい施術を受けることができます。</p>
             </div>
             <div class="organic_merit">
@@ -76,17 +74,15 @@
             </div>
             <div class="organic_merit">
                 <p class="organic_merit_title">・色持ちが良い</p>
-                <p class="organic_merit_text">前述したオーガニックキャリアオイル。<br>
+                <p class="organic_merit_text">前述したオーガニックキャリアオイル<br>
                     このオイルの高い浸透力によって、染料を髪の芯まで届けることができます。<br>
-                    よって色が濃く染まり、色落ちも控えめになりカラーの色持ちがよくなるので、<br>
-                    全体カラーの回数が減りダメージ軽減にも繋がります。</p>
+                    よって色が濃く染まり、色落ちも控えめになりカラーの色持ちがよくなるので全体カラーの回数が減りダメージ軽減にも繋がります。</p>
             </div>
             <div class="organic_merit">
                 <p class="organic_merit_title">・ダメージを軽減</p>
                 <p class="organic_merit_text">髪をいたわる植物成分に拘っているため、<br>
                     髪に負担のかかる薬剤を使わずに綺麗に染まります。<br>
-                    アルカリ・過酸化水素の配合量を抑えることでもダメージを軽減しているので、<br>
-                    髪の潤いを維持しながら艶髪を楽しむことができます。</p>
+                    アルカリ・過酸化水素の配合量を抑えることでもダメージを軽減しているので髪の潤いを維持しながら艶髪を楽しむことができます。</p>
             </div>
             <div class="organic_merit">
                 <p class="organic_merit_title organic_merit_recomend">【髪質改善サロンGRANTオーガニックカラーこんな方にオススメ！】</p>
@@ -111,9 +107,8 @@
             </div>
             <div class="organic_merit">
                 <p class="organic_fin_title">【頭皮・髪のことを考えたオーガニックカラーは、どんどん注目度を増しています】</p>
-                <p class="organic_fin_text">年齢を重ねることによる女性ホルモンの減少から、<br class="sp-off">地肌や髪が変化し従来のアルカリカラーを続けることに<br class="sp-off">不安・不満を抱える大人世代のお客様に対して、<br>
-                    髪質改善サロンGRANTオーガニックカラーは安心して<br class="sp-off">ヘアカラーを繰り返し使い続けることができる<br class="sp-off">カラーメニューとしておすすめです。<br>
-                    植物の力を活かした処方により、<br class="sp-on">「施術中」「仕上がり」「継続使用」<br>
+                <p class="organic_fin_text">年齢を重ねることによる女性ホルモンの減少から、<br class="sp-off">地肌や髪が変化し従来のアルカリカラーを続けることに<br class="sp-off">不安・不満を抱える大人世代のお客様に対して、髪質改善サロンGRANTオーガニックカラーは安心して<br class="sp-off">ヘアカラーを繰り返し使い続けることができる<br class="sp-off">カラーメニューとしておすすめです。
+                <br class="sp-on">「施術中」「仕上がり」「継続使用」<br>
                     すべてを通してオーガニックならではの心地よさを実感していただけます。<br>
                 </p>
             </div>
